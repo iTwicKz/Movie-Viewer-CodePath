@@ -107,10 +107,13 @@ SWIFT_CLASS("_TtC11MovieViewer11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UILabel;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11MovieViewer9MovieCell")
 @interface MovieCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified titleLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified overviewLabel;
 - (void)awakeFromNib;
 - (void)setSelected:(BOOL)selected animated:(BOOL)animated;
 - (nonnull instancetype)initWithStyle:(UITableViewCellStyle)style reuseIdentifier:(NSString * __nullable)reuseIdentifier OBJC_DESIGNATED_INITIALIZER;
