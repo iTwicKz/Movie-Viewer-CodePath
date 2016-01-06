@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DdoT3tl8Ulv061x9OJAX2FKgDdI=
+			pmCaMvcEu40NFVtEsi4ubkoy3bk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,11 +53,23 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M60Cmxwrjcjh0mUXogyit0yuQIE=
+			Rox+P8+8YDhVjWCJ0yF6uQ2gkTg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
+		<data>
+		U7YW1hd8682s1NXXenHG+gSUUpU=
+		</data>
+		<key>Frameworks/AFNetworking.framework/Info.plist</key>
+		<data>
+		3AfLQkDb9MhBs5aP2pJ0mZBv7xg=
+		</data>
+		<key>Frameworks/AFNetworking.framework/_CodeSignature/CodeResources</key>
+		<data>
+		uSW+ccUwXjJ/i2CbEjmhxiwqPfw=
+		</data>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
 		RSK3kYwYjKAFjMiMDnX1o2r20as=
@@ -140,7 +152,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			DdoT3tl8Ulv061x9OJAX2FKgDdI=
+			pmCaMvcEu40NFVtEsi4ubkoy3bk=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -158,11 +170,23 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			M60Cmxwrjcjh0mUXogyit0yuQIE=
+			Rox+P8+8YDhVjWCJ0yF6uQ2gkTg=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
+		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
+		<data>
+		U7YW1hd8682s1NXXenHG+gSUUpU=
+		</data>
+		<key>Frameworks/AFNetworking.framework/Info.plist</key>
+		<data>
+		3AfLQkDb9MhBs5aP2pJ0mZBv7xg=
+		</data>
+		<key>Frameworks/AFNetworking.framework/_CodeSignature/CodeResources</key>
+		<data>
+		uSW+ccUwXjJ/i2CbEjmhxiwqPfw=
+		</data>
 		<key>Frameworks/libswiftContacts.dylib</key>
 		<data>
 		RSK3kYwYjKAFjMiMDnX1o2r20as=

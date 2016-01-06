@@ -107,11 +107,13 @@ SWIFT_CLASS("_TtC11MovieViewer11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIImageView;
 @class UILabel;
 @class NSCoder;
 
 SWIFT_CLASS("_TtC11MovieViewer9MovieCell")
 @interface MovieCell : UITableViewCell
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified posterView;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified titleLabel;
 @property (nonatomic, weak) IBOutlet UILabel * __null_unspecified overviewLabel;
 - (void)awakeFromNib;

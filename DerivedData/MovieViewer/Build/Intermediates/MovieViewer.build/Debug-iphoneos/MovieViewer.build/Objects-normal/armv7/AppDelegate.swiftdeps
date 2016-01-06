@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer11AppDelegate", ""]
 provides-dynamic-lookup:
-- "window"
-- "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
-- "applicationWillResignActive"
 - "applicationWillTerminate"
 - "application"
 - "applicationDidBecomeActive"
+- "window"
+- "applicationWillEnterForeground"
+- "applicationWillResignActive"
 depends-top-level:
-- "UIApplicationDelegate"
-- "AnyObject"
-- !private "BooleanLiteralType"
-- "UIResponder"
 - "UIApplication"
 - "AppDelegate"
 - "Bool"
-- "NSObject"
+- !private "BooleanLiteralType"
 - "UIWindow"
+- "AnyObject"
+- "UIApplicationDelegate"
+- "UIResponder"
+- "NSObject"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
