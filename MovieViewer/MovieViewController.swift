@@ -9,17 +9,22 @@
 import UIKit
 import AFNetworking
 
-class MovieViewController: UIViewController, UITableViewDataSource, UITableViewDelegate {
+class MovieViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var collectionView: UICollectionView!
     
     var movies: [NSDictionary]?
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        collectionView.dataSource = self
+        collectionView.delegate = self
 
-        tableView.dataSource = self
-        tableView.delegate = self
+//        tableView.dataSource = self
+//        tableView.delegate = self
         
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
         let url = NSURL(string:"https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")
@@ -38,7 +43,8 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
                             NSLog("response: \(responseDictionary)")
                             
                             self.movies = responseDictionary["results"] as! [NSDictionary]
-                            self.tableView.reloadData()
+//                            self.tableView.reloadData()
+                            self.collectionView.reloadData()
                     }
                 }
         });
@@ -54,17 +60,42 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         // Dispose of any resources that can be recreated.
     }
     
-    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
-        if let movies = movies {
-            return movies.count
-        }
-        else {
-            return 0
-        }
-    }
+//    func tableView(tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+//        if let movies = movies {
+//            return movies.count
+//        }
+//        else {
+//            return 0
+//        }
+//    }
+//    
+//    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
+//        let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell", forIndexPath: indexPath) as! MovieCell
+//        
+//        let movie = movies![indexPath.row]
+//        let title = movie["title"] as! String
+//        let overview = movie["overview"] as!String
+//        let posterPath = movie["poster_path"] as! String
+//        
+//        let baseUrl = "http://image.tmdb.org/t/p/w500"
+//        
+//        let imageUrl = NSURL(string: baseUrl + posterPath)
+//                
+//        cell.titleLabel.text = title
+//        cell.overviewLabel.text = overview
+//        cell.posterView.setImageWithURL(imageUrl!)
+//        
+//        
+//        
+//        
+//        print("row\(indexPath.row)")
+//        return cell
+//    }
+
     
-    func tableView(tableView: UITableView, cellForRowAtIndexPath indexPath: NSIndexPath) -> UITableViewCell {
-        let cell = tableView.dequeueReusableCellWithIdentifier("MovieCell", forIndexPath: indexPath) as! MovieCell
+    func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
+        
+        let cell = collectionView.dequeueReusableCellWithReuseIdentifier("MovieViewCell", forIndexPath: indexPath) as! MovieViewCell
         
         let movie = movies![indexPath.row]
         let title = movie["title"] as! String
@@ -74,7 +105,7 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         let baseUrl = "http://image.tmdb.org/t/p/w500"
         
         let imageUrl = NSURL(string: baseUrl + posterPath)
-                
+        
         cell.titleLabel.text = title
         cell.overviewLabel.text = overview
         cell.posterView.setImageWithURL(imageUrl!)
@@ -84,7 +115,18 @@ class MovieViewController: UIViewController, UITableViewDataSource, UITableViewD
         
         print("row\(indexPath.row)")
         return cell
+    
     }
+
+    func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
+        if let movies = movies {
+            return movies.count
+        }
+        else {
+            return 0
+        }
+    }
+
 
     
     

@@ -6,17 +6,17 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer9MovieCell", ""]
 provides-dynamic-lookup:
-- "awakeFromNib"
-- "titleLabel"
-- "setSelected"
 - "overviewLabel"
+- "awakeFromNib"
 - "posterView"
+- "setSelected"
+- "titleLabel"
 depends-top-level:
-- "UITableViewCell"
-- "MovieCell"
 - "UIImageView"
 - "UILabel"
 - "Bool"
+- "UITableViewCell"
+- "MovieCell"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "init"]
