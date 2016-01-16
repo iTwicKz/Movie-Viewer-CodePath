@@ -1,7 +1,8 @@
 version: "Apple Swift version 2.1 (swiftlang-700.1.101.6 clang-700.1.76)"
-options: "3640d525d97bf754ca2fec74bae1f2eb"
-build_time: [505356593, 379451000]
+options: "9cebddba44e19f60d5cb21d9c177b6a6"
+build_time: [505956730, 809950000]
 inputs:
-  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewController.swift": [505349672, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewCell.swift": [505359415, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieCell.swift": [505358968, 0]
   "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/AppDelegate.swift": [505269763, 0]
-  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieCell.swift": [505349672, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewController.swift": [505359809, 0]

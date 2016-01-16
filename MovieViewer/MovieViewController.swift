@@ -9,19 +9,24 @@
 import UIKit
 import AFNetworking
 
-class MovieViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate {
+class MovieViewController: UIViewController, UICollectionViewDataSource, UISearchBarDelegate {
 
     @IBOutlet weak var tableView: UITableView!
+    
+    @IBOutlet weak var searchBar: UISearchBar!
     
     @IBOutlet weak var collectionView: UICollectionView!
     
     var movies: [NSDictionary]?
     
+    var filteredData: [NSDictionary]?
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         collectionView.dataSource = self
-        collectionView.delegate = self
+//        collectionView.delegate = self
+        searchBar.delegate = self
 
 //        tableView.dataSource = self
 //        tableView.delegate = self
@@ -44,6 +49,7 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UIColle
                             
                             self.movies = responseDictionary["results"] as! [NSDictionary]
 //                            self.tableView.reloadData()
+                            self.filteredData = self.movies
                             self.collectionView.reloadData()
                     }
                 }
@@ -93,11 +99,12 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UIColle
 //    }
 
     
+    @IBOutlet weak var lhslfgas: UIImageView!
     func collectionView(collectionView: UICollectionView, cellForItemAtIndexPath indexPath: NSIndexPath) -> UICollectionViewCell {
         
         let cell = collectionView.dequeueReusableCellWithReuseIdentifier("MovieViewCell", forIndexPath: indexPath) as! MovieViewCell
         
-        let movie = movies![indexPath.row]
+        let movie = filteredData![indexPath.row]
         let title = movie["title"] as! String
         let overview = movie["overview"] as!String
         let posterPath = movie["poster_path"] as! String
@@ -119,14 +126,36 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UIColle
     }
 
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
-        if let movies = movies {
-            return movies.count
+        if let filteredData = filteredData {
+            return filteredData.count
         }
         else {
             return 0
         }
     }
 
+    func searchBar(searchBar: UISearchBar,
+        textDidChange searchText: String) {
+            print("Changed")
+            if searchText.isEmpty {
+                filteredData = movies
+            } else {
+                filteredData = movies?.filter({(movie : NSDictionary) -> Bool in
+            if let title = movie["title"] as? String {
+                if title.rangeOfString(searchText, options: .CaseInsensitiveSearch) != nil {
+                    
+                    return  true
+                } else {
+                    return false
+                }
+            }
+            return false
+            })
+            }
+            
+            collectionView.reloadData()
+
+    }
 
     
     
