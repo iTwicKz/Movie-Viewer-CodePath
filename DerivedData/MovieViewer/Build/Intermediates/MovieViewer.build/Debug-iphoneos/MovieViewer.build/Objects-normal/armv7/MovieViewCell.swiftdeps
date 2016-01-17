@@ -11,8 +11,8 @@ provides-dynamic-lookup:
 - "overviewLabel"
 depends-top-level:
 - "MovieViewCell"
-- "UILabel"
 - "UIImageView"
+- "UILabel"
 - "UICollectionViewCell"
 depends-member:
 - ["PSs9AnyObject", "init"]

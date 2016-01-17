@@ -134,6 +134,7 @@ SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 @end
 
 @class NSDictionary;
+@class UIRefreshControl;
 @class UICollectionView;
 @class NSIndexPath;
 @class UISearchBar;
@@ -147,9 +148,12 @@ SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 @property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
 @property (nonatomic, copy) NSArray<NSDictionary *> * __nullable movies;
 @property (nonatomic, copy) NSArray<NSDictionary *> * __nullable filteredData;
+@property (nonatomic, strong) UIRefreshControl * __null_unspecified refreshControl;
 - (void)viewDidLoad;
+- (void)networkRequest;
 - (void)didReceiveMemoryWarning;
-@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified lhslfgas;
+- (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
+- (void)onRefresh;
 - (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (void)searchBar:(UISearchBar * __nonnull)searchBar textDidChange:(NSString * __nonnull)searchText;
