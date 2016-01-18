@@ -9,7 +9,7 @@
 import UIKit
 import AFNetworking
 
-class MovieViewController: UIViewController, UICollectionViewDataSource, UISearchBarDelegate {
+class MovieViewController: UIViewController, UICollectionViewDataSource, UISearchBarDelegate, UIScrollViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -23,14 +23,25 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
     
     var refreshControl: UIRefreshControl!
     
+    
+    var myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         
         collectionView.dataSource = self
         searchBar.delegate = self
-
-
-        self.networkRequest();
+        
+        myActivityIndicator.color = UIColor.blackColor()
+        
+        myActivityIndicator.center = view.center
+        myActivityIndicator.startAnimating()
+        view.addSubview(myActivityIndicator)
+      
+        delay(2, closure: {
+            self.networkRequest()
+        })
+        
         
         
         refreshControl = UIRefreshControl()
@@ -42,6 +53,8 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
     }
     
     func networkRequest() {
+        
+  
         
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
         let url = NSURL(string:"https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")
@@ -67,6 +80,9 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
                 }
         });
         task.resume()
+        
+        myActivityIndicator.stopAnimating()
+
     }
 
     override func didReceiveMemoryWarning() {
@@ -127,6 +143,7 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
             return 0
         }
     }
+    
 
     func searchBar(searchBar: UISearchBar,
         textDidChange searchText: String) {

@@ -108,9 +108,23 @@ SWIFT_CLASS("_TtC11MovieViewer11AppDelegate")
 - (nonnull instancetype)init OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class UIActivityIndicatorView;
+@class NSCoder;
+
+SWIFT_CLASS("_TtC11MovieViewer19LoadingActivityView")
+@interface LoadingActivityView : UIView
+@property (nonatomic, strong) UIActivityIndicatorView * __nonnull activityIndicatorView;
++ (CGFloat)defaultHeight;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+- (nonnull instancetype)initWithFrame:(CGRect)aRect OBJC_DESIGNATED_INITIALIZER;
+- (void)layoutSubviews;
+- (void)setupActivityIndicator;
+- (void)stopAnimating;
+- (void)startAnimating;
+@end
+
 @class UIImageView;
 @class UILabel;
-@class NSCoder;
 
 SWIFT_CLASS("_TtC11MovieViewer9MovieCell")
 @interface MovieCell : UITableViewCell
@@ -142,13 +156,14 @@ SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 @class NSBundle;
 
 SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
-@interface MovieViewController : UIViewController <UIBarPositioningDelegate, UISearchBarDelegate, UICollectionViewDataSource>
+@interface MovieViewController : UIViewController <UIBarPositioningDelegate, UISearchBarDelegate, UIScrollViewDelegate, UICollectionViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UISearchBar * __null_unspecified searchBar;
 @property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
 @property (nonatomic, copy) NSArray<NSDictionary *> * __nullable movies;
 @property (nonatomic, copy) NSArray<NSDictionary *> * __nullable filteredData;
 @property (nonatomic, strong) UIRefreshControl * __null_unspecified refreshControl;
+@property (nonatomic, strong) UIActivityIndicatorView * __nonnull myActivityIndicator;
 - (void)viewDidLoad;
 - (void)networkRequest;
 - (void)didReceiveMemoryWarning;

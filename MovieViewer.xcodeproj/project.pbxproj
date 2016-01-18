@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		16558AD41C4DC35C00EDB99D /* LoadingActivityView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16558AD31C4DC35C00EDB99D /* LoadingActivityView.swift */; };
 		16826DF11C3CA3DB0081F985 /* MovieViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16826DF01C3CA3DB0081F985 /* MovieViewCell.swift */; };
 		169ECEDC1C3B56E7004FD2BB /* MovieCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 169ECEDB1C3B56E7004FD2BB /* MovieCell.swift */; };
 		16C4D10D1C3B490300516E4A /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 16C4D10C1C3B490300516E4A /* AppDelegate.swift */; };
@@ -18,6 +19,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		16558AD31C4DC35C00EDB99D /* LoadingActivityView.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = LoadingActivityView.swift; sourceTree = "<group>"; };
 		16826DF01C3CA3DB0081F985 /* MovieViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieViewCell.swift; sourceTree = "<group>"; };
 		169ECEDB1C3B56E7004FD2BB /* MovieCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = MovieCell.swift; sourceTree = "<group>"; };
 		16C4D1091C3B490200516E4A /* MovieViewer.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MovieViewer.app; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -47,6 +49,7 @@
 		169ECEDA1C3B56C1004FD2BB /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				16558AD31C4DC35C00EDB99D /* LoadingActivityView.swift */,
 				169ECEDB1C3B56E7004FD2BB /* MovieCell.swift */,
 				16826DF01C3CA3DB0081F985 /* MovieViewCell.swift */,
 			);
@@ -236,6 +239,7 @@
 				16C4D10D1C3B490300516E4A /* AppDelegate.swift in Sources */,
 				16826DF11C3CA3DB0081F985 /* MovieViewCell.swift in Sources */,
 				16C4D11F1C3B49B600516E4A /* MovieViewController.swift in Sources */,
+				16558AD41C4DC35C00EDB99D /* LoadingActivityView.swift in Sources */,
 				169ECEDC1C3B56E7004FD2BB /* MovieCell.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
