@@ -17,6 +17,8 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
     
     @IBOutlet weak var collectionView: UICollectionView!
     
+    @IBOutlet weak var networkErrorView: UIView!
+    
     var movies: [NSDictionary]?
     
     var filteredData: [NSDictionary]?
@@ -24,10 +26,13 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
     var refreshControl: UIRefreshControl!
     
     
+    
     var myActivityIndicator = UIActivityIndicatorView(activityIndicatorStyle: UIActivityIndicatorViewStyle.WhiteLarge)
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        
+        self.networkErrorView.hidden = true
         
         collectionView.dataSource = self
         searchBar.delegate = self
@@ -52,11 +57,13 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
         // Do any additional setup after loading the view.
     }
     
+    
     func networkRequest() {
         
   
         
         let apiKey = "a07e22bc18f5cb106bfe4cc1f83ad8ed"
+//         let apiKey = "a07e22bc18f5cb106bfe4cc1f8s3ad8ed"
         let url = NSURL(string:"https://api.themoviedb.org/3/movie/now_playing?api_key=\(apiKey)")
         let request = NSURLRequest(URL: url!)
         let session = NSURLSession(
@@ -77,6 +84,10 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
                             self.filteredData = self.movies
                             self.collectionView.reloadData()
                     }
+                }
+                else {
+                    self.networkErrorView.hidden = false
+                    
                 }
         });
         task.resume()

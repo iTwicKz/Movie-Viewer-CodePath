@@ -160,6 +160,7 @@ SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 @property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UISearchBar * __null_unspecified searchBar;
 @property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified networkErrorView;
 @property (nonatomic, copy) NSArray<NSDictionary *> * __nullable movies;
 @property (nonatomic, copy) NSArray<NSDictionary *> * __nullable filteredData;
 @property (nonatomic, strong) UIRefreshControl * __null_unspecified refreshControl;
