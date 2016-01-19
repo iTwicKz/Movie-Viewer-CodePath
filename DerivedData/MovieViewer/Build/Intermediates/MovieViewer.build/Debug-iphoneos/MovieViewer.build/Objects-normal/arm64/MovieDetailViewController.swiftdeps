@@ -1,0 +1,279 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "MovieDetailViewController"
+provides-nominal:
+- "C11MovieViewer25MovieDetailViewController"
+provides-member:
+- ["C11MovieViewer25MovieDetailViewController", ""]
+provides-dynamic-lookup:
+- "passedMovie"
+- "viewDidLoad"
+- "didReceiveMemoryWarning"
+- "detailImageView"
+depends-top-level:
+- !private "NSURL"
+- "UIImageView"
+- "NSDictionary"
+- !private "String"
+- !private "+"
+- !private "StringLiteralType"
+- !private "print"
+- "UIViewController"
+- "MovieDetailViewController"
+depends-member:
+- !private ["PSs9AnyObject", "NSURL"]
+- ["PSs9AnyObject", "detailImageView"]
+- ["PSs9AnyObject", "didReceiveMemoryWarning"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "passedMovie"]
+- !private ["PSs9AnyObject", "print"]
+- !private ["PSs9AnyObject", "setImageWithURL"]
+- !private ["PSs9AnyObject", "subscript"]
+- ["PSs9AnyObject", "viewDidLoad"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "NSURL"]
+- ["PSs11CVarArgType", "detailImageView"]
+- ["PSs11CVarArgType", "didReceiveMemoryWarning"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "passedMovie"]
+- !private ["PSs11CVarArgType", "print"]
+- !private ["PSs11CVarArgType", "setImageWithURL"]
+- !private ["PSs11CVarArgType", "subscript"]
+- ["PSs11CVarArgType", "viewDidLoad"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "NSURL"]
+- ["PSs23CustomStringConvertible", "detailImageView"]
+- ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "passedMovie"]
+- !private ["PSs23CustomStringConvertible", "print"]
+- !private ["PSs23CustomStringConvertible", "setImageWithURL"]
+- !private ["PSs23CustomStringConvertible", "subscript"]
+- ["PSs23CustomStringConvertible", "viewDidLoad"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs28DictionaryLiteralConvertible", "subscript"]
+- !private ["PSs9Equatable", "NSURL"]
+- ["PSs9Equatable", "detailImageView"]
+- ["PSs9Equatable", "didReceiveMemoryWarning"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "passedMovie"]
+- !private ["PSs9Equatable", "print"]
+- !private ["PSs9Equatable", "setImageWithURL"]
+- !private ["PSs9Equatable", "subscript"]
+- ["PSs9Equatable", "viewDidLoad"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "NSURL"]
+- ["PSs8Hashable", "detailImageView"]
+- ["PSs8Hashable", "didReceiveMemoryWarning"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "passedMovie"]
+- !private ["PSs8Hashable", "print"]
+- !private ["PSs8Hashable", "setImageWithURL"]
+- !private ["PSs8Hashable", "subscript"]
+- ["PSs8Hashable", "viewDidLoad"]
+- ["PSs8Hashable", ""]
+- ["C11MovieViewer25MovieDetailViewController", "NSDictionary"]
+- !private ["C11MovieViewer25MovieDetailViewController", "NSURL"]
+- !private ["C11MovieViewer25MovieDetailViewController", "String"]
+- ["C11MovieViewer25MovieDetailViewController", "UIImageView"]
+- ["C11MovieViewer25MovieDetailViewController", "deinit"]
+- ["C11MovieViewer25MovieDetailViewController", "detailImageView"]
+- ["C11MovieViewer25MovieDetailViewController", "didReceiveMemoryWarning"]
+- ["C11MovieViewer25MovieDetailViewController", "init"]
+- ["C11MovieViewer25MovieDetailViewController", "passedMovie"]
+- !private ["C11MovieViewer25MovieDetailViewController", "print"]
+- ["C11MovieViewer25MovieDetailViewController", "viewDidLoad"]
+- !private ["PSo8NSCoding", "NSURL"]
+- ["PSo8NSCoding", "detailImageView"]
+- ["PSo8NSCoding", "didReceiveMemoryWarning"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "passedMovie"]
+- !private ["PSo8NSCoding", "print"]
+- !private ["PSo8NSCoding", "setImageWithURL"]
+- !private ["PSo8NSCoding", "subscript"]
+- ["PSo8NSCoding", "viewDidLoad"]
+- ["PSo8NSCoding", ""]
+- !private ["PSo9NSCopying", "deinit"]
+- !private ["PSo9NSCopying", "init"]
+- !private ["PSo9NSCopying", "subscript"]
+- !private ["CSo12NSDictionary", "subscript"]
+- !private ["PSo26NSExtensionRequestHandling", "NSURL"]
+- ["PSo26NSExtensionRequestHandling", "detailImageView"]
+- ["PSo26NSExtensionRequestHandling", "didReceiveMemoryWarning"]
+- ["PSo26NSExtensionRequestHandling", "init"]
+- ["PSo26NSExtensionRequestHandling", "passedMovie"]
+- !private ["PSo26NSExtensionRequestHandling", "print"]
+- ["PSo26NSExtensionRequestHandling", "viewDidLoad"]
+- ["PSo26NSExtensionRequestHandling", ""]
+- !private ["PSo17NSFastEnumeration", "subscript"]
+- !private ["PSo16NSMutableCopying", "subscript"]
+- ["CSo8NSObject", "NSDictionary"]
+- !private ["CSo8NSObject", "NSURL"]
+- !private ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImageView"]
+- ["CSo8NSObject", "detailImageView"]
+- ["CSo8NSObject", "didReceiveMemoryWarning"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "passedMovie"]
+- !private ["CSo8NSObject", "print"]
+- !private ["CSo8NSObject", "setImageWithURL"]
+- !private ["CSo8NSObject", "subscript"]
+- ["CSo8NSObject", "viewDidLoad"]
+- !private ["PSo16NSObjectProtocol", "NSURL"]
+- ["PSo16NSObjectProtocol", "detailImageView"]
+- ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "passedMovie"]
+- !private ["PSo16NSObjectProtocol", "print"]
+- !private ["PSo16NSObjectProtocol", "setImageWithURL"]
+- !private ["PSo16NSObjectProtocol", "subscript"]
+- ["PSo16NSObjectProtocol", "viewDidLoad"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- !private ["PSo14NSSecureCoding", "subscript"]
+- !private ["CSo5NSURL", "init"]
+- !private ["Sq", "deinit"]
+- !private ["PSs12SequenceType", "subscript"]
+- !private ["SS", "deinit"]
+- !private ["PSo29UIAccessibilityIdentification", "setImageWithURL"]
+- !private ["PSo12UIAppearance", "setImageWithURL"]
+- !private ["PSo21UIAppearanceContainer", "NSURL"]
+- ["PSo21UIAppearanceContainer", "detailImageView"]
+- ["PSo21UIAppearanceContainer", "didReceiveMemoryWarning"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "passedMovie"]
+- !private ["PSo21UIAppearanceContainer", "print"]
+- !private ["PSo21UIAppearanceContainer", "setImageWithURL"]
+- ["PSo21UIAppearanceContainer", "viewDidLoad"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo18UIContentContainer", "NSURL"]
+- ["PSo18UIContentContainer", "detailImageView"]
+- ["PSo18UIContentContainer", "didReceiveMemoryWarning"]
+- ["PSo18UIContentContainer", "init"]
+- ["PSo18UIContentContainer", "passedMovie"]
+- !private ["PSo18UIContentContainer", "print"]
+- ["PSo18UIContentContainer", "viewDidLoad"]
+- ["PSo18UIContentContainer", ""]
+- !private ["PSo17UICoordinateSpace", "setImageWithURL"]
+- !private ["PSo13UIDynamicItem", "setImageWithURL"]
+- !private ["PSo18UIFocusEnvironment", "NSURL"]
+- ["PSo18UIFocusEnvironment", "detailImageView"]
+- ["PSo18UIFocusEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "passedMovie"]
+- !private ["PSo18UIFocusEnvironment", "print"]
+- !private ["PSo18UIFocusEnvironment", "setImageWithURL"]
+- ["PSo18UIFocusEnvironment", "viewDidLoad"]
+- ["PSo18UIFocusEnvironment", ""]
+- !private ["CSo11UIImageView", "setImageWithURL"]
+- ["CSo11UIResponder", "NSDictionary"]
+- !private ["CSo11UIResponder", "NSURL"]
+- !private ["CSo11UIResponder", "String"]
+- ["CSo11UIResponder", "UIImageView"]
+- ["CSo11UIResponder", "detailImageView"]
+- ["CSo11UIResponder", "didReceiveMemoryWarning"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "passedMovie"]
+- !private ["CSo11UIResponder", "print"]
+- !private ["CSo11UIResponder", "setImageWithURL"]
+- ["CSo11UIResponder", "viewDidLoad"]
+- !private ["PSo16UIStateRestoring", "NSURL"]
+- ["PSo16UIStateRestoring", "detailImageView"]
+- ["PSo16UIStateRestoring", "didReceiveMemoryWarning"]
+- ["PSo16UIStateRestoring", "init"]
+- ["PSo16UIStateRestoring", "passedMovie"]
+- !private ["PSo16UIStateRestoring", "print"]
+- ["PSo16UIStateRestoring", "viewDidLoad"]
+- ["PSo16UIStateRestoring", ""]
+- !private ["PSo18UITraitEnvironment", "NSURL"]
+- ["PSo18UITraitEnvironment", "detailImageView"]
+- ["PSo18UITraitEnvironment", "didReceiveMemoryWarning"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "passedMovie"]
+- !private ["PSo18UITraitEnvironment", "print"]
+- !private ["PSo18UITraitEnvironment", "setImageWithURL"]
+- ["PSo18UITraitEnvironment", "viewDidLoad"]
+- ["PSo18UITraitEnvironment", ""]
+- !private ["CSo6UIView", "setImageWithURL"]
+- ["CSo16UIViewController", "NSDictionary"]
+- !private ["CSo16UIViewController", "NSURL"]
+- !private ["CSo16UIViewController", "String"]
+- ["CSo16UIViewController", "UIImageView"]
+- ["CSo16UIViewController", "detailImageView"]
+- ["CSo16UIViewController", "didReceiveMemoryWarning"]
+- ["CSo16UIViewController", "init"]
+- ["CSo16UIViewController", "passedMovie"]
+- !private ["CSo16UIViewController", "print"]
+- ["CSo16UIViewController", "viewDidLoad"]
+- ["CSo16UIViewController", ""]
+- !private ["PSs32_FileReferenceLiteralConvertible", "init"]
+- !private ["PSs12_Reflectable", "init"]
+- !private ["PSs12_Reflectable", "setImageWithURL"]
+- !private ["PSs12_Reflectable", "subscript"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- !private "PSs28DictionaryLiteralConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C11MovieViewer25MovieDetailViewController"
+- "PSo8NSCoding"
+- !private "PSo9NSCopying"
+- !private "CSo12NSDictionary"
+- "PSo26NSExtensionRequestHandling"
+- !private "PSo17NSFastEnumeration"
+- !private "PSo16NSMutableCopying"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- !private "CSo5NSURL"
+- !private "Sq"
+- !private "PSs12SequenceType"
+- !private "SS"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo18UIContentContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- !private "CSo11UIImageView"
+- "CSo11UIResponder"
+- "PSo16UIStateRestoring"
+- "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- "CSo16UIViewController"
+- !private "PSs32_FileReferenceLiteralConvertible"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+interface-hash: "8737f294b09f1822000441ac98ac0d5b"

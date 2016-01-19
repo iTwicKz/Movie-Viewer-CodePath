@@ -1,0 +1,413 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "LoadingActivityView"
+provides-nominal:
+- "C11MovieViewer19LoadingActivityView"
+provides-member:
+- ["C11MovieViewer19LoadingActivityView", ""]
+provides-dynamic-lookup:
+- "setupActivityIndicator"
+- "activityIndicatorView"
+- "startAnimating"
+- "stopAnimating"
+- "defaultHeight"
+- "layoutSubviews"
+depends-top-level:
+- "NSCoder"
+- "UIActivityIndicatorView"
+- "CGRect"
+- !private "CGPointMake"
+- !private "/"
+- !private "BooleanLiteralType"
+- "UIView"
+- "CGFloat"
+- "LoadingActivityView"
+depends-member:
+- !private ["PSs9AnyObject", "CGPointMake"]
+- ["PSs9AnyObject", "UIActivityIndicatorView"]
+- ["PSs9AnyObject", "activityIndicatorView"]
+- !private ["PSs9AnyObject", "activityIndicatorViewStyle"]
+- !private ["PSs9AnyObject", "addSubview"]
+- !private ["PSs9AnyObject", "bounds"]
+- !private ["PSs9AnyObject", "center"]
+- ["PSs9AnyObject", "defaultHeight"]
+- !private ["PSs9AnyObject", "hidden"]
+- !private ["PSs9AnyObject", "hidesWhenStopped"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "layoutSubviews"]
+- ["PSs9AnyObject", "setupActivityIndicator"]
+- ["PSs9AnyObject", "startAnimating"]
+- ["PSs9AnyObject", "stopAnimating"]
+- ["PSs9AnyObject", ""]
+- ["V12CoreGraphics7CGFloat", "deinit"]
+- !private ["VSC6CGRect", "size"]
+- !private ["VSC6CGSize", "height"]
+- !private ["VSC6CGSize", "width"]
+- !private ["PSs11CVarArgType", "CGPointMake"]
+- ["PSs11CVarArgType", "UIActivityIndicatorView"]
+- ["PSs11CVarArgType", "activityIndicatorView"]
+- !private ["PSs11CVarArgType", "activityIndicatorViewStyle"]
+- !private ["PSs11CVarArgType", "addSubview"]
+- !private ["PSs11CVarArgType", "bounds"]
+- !private ["PSs11CVarArgType", "center"]
+- ["PSs11CVarArgType", "defaultHeight"]
+- !private ["PSs11CVarArgType", "hidden"]
+- !private ["PSs11CVarArgType", "hidesWhenStopped"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "layoutSubviews"]
+- ["PSs11CVarArgType", "setupActivityIndicator"]
+- ["PSs11CVarArgType", "startAnimating"]
+- ["PSs11CVarArgType", "stopAnimating"]
+- ["PSs11CVarArgType", ""]
+- !private ["PSs23CustomStringConvertible", "CGPointMake"]
+- ["PSs23CustomStringConvertible", "UIActivityIndicatorView"]
+- ["PSs23CustomStringConvertible", "activityIndicatorView"]
+- !private ["PSs23CustomStringConvertible", "activityIndicatorViewStyle"]
+- !private ["PSs23CustomStringConvertible", "addSubview"]
+- !private ["PSs23CustomStringConvertible", "bounds"]
+- !private ["PSs23CustomStringConvertible", "center"]
+- ["PSs23CustomStringConvertible", "defaultHeight"]
+- !private ["PSs23CustomStringConvertible", "hidden"]
+- !private ["PSs23CustomStringConvertible", "hidesWhenStopped"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "layoutSubviews"]
+- ["PSs23CustomStringConvertible", "setupActivityIndicator"]
+- ["PSs23CustomStringConvertible", "startAnimating"]
+- ["PSs23CustomStringConvertible", "stopAnimating"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "CGPointMake"]
+- !private ["PSs9Equatable", "Gray"]
+- ["PSs9Equatable", "UIActivityIndicatorView"]
+- ["PSs9Equatable", "activityIndicatorView"]
+- !private ["PSs9Equatable", "activityIndicatorViewStyle"]
+- !private ["PSs9Equatable", "addSubview"]
+- !private ["PSs9Equatable", "bounds"]
+- !private ["PSs9Equatable", "center"]
+- ["PSs9Equatable", "defaultHeight"]
+- !private ["PSs9Equatable", "height"]
+- !private ["PSs9Equatable", "hidden"]
+- !private ["PSs9Equatable", "hidesWhenStopped"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "layoutSubviews"]
+- ["PSs9Equatable", "setupActivityIndicator"]
+- !private ["PSs9Equatable", "size"]
+- ["PSs9Equatable", "startAnimating"]
+- ["PSs9Equatable", "stopAnimating"]
+- !private ["PSs9Equatable", "width"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "CGPointMake"]
+- !private ["PSs8Hashable", "Gray"]
+- ["PSs8Hashable", "UIActivityIndicatorView"]
+- ["PSs8Hashable", "activityIndicatorView"]
+- !private ["PSs8Hashable", "activityIndicatorViewStyle"]
+- !private ["PSs8Hashable", "addSubview"]
+- !private ["PSs8Hashable", "bounds"]
+- !private ["PSs8Hashable", "center"]
+- ["PSs8Hashable", "defaultHeight"]
+- !private ["PSs8Hashable", "hidden"]
+- !private ["PSs8Hashable", "hidesWhenStopped"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "layoutSubviews"]
+- ["PSs8Hashable", "setupActivityIndicator"]
+- ["PSs8Hashable", "startAnimating"]
+- ["PSs8Hashable", "stopAnimating"]
+- ["PSs8Hashable", ""]
+- ["C11MovieViewer19LoadingActivityView", "CGFloat"]
+- !private ["C11MovieViewer19LoadingActivityView", "CGPointMake"]
+- ["C11MovieViewer19LoadingActivityView", "CGRect"]
+- ["C11MovieViewer19LoadingActivityView", "NSCoder"]
+- ["C11MovieViewer19LoadingActivityView", "UIActivityIndicatorView"]
+- ["C11MovieViewer19LoadingActivityView", "activityIndicatorView"]
+- !private ["C11MovieViewer19LoadingActivityView", "addSubview"]
+- !private ["C11MovieViewer19LoadingActivityView", "bounds"]
+- ["C11MovieViewer19LoadingActivityView", "defaultHeight"]
+- ["C11MovieViewer19LoadingActivityView", "deinit"]
+- !private ["C11MovieViewer19LoadingActivityView", "hidden"]
+- ["C11MovieViewer19LoadingActivityView", "init"]
+- ["C11MovieViewer19LoadingActivityView", "layoutSubviews"]
+- ["C11MovieViewer19LoadingActivityView", "setupActivityIndicator"]
+- ["C11MovieViewer19LoadingActivityView", "startAnimating"]
+- ["C11MovieViewer19LoadingActivityView", "stopAnimating"]
+- !private ["PSo8NSCoding", "CGPointMake"]
+- ["PSo8NSCoding", "UIActivityIndicatorView"]
+- ["PSo8NSCoding", "activityIndicatorView"]
+- !private ["PSo8NSCoding", "activityIndicatorViewStyle"]
+- !private ["PSo8NSCoding", "addSubview"]
+- !private ["PSo8NSCoding", "bounds"]
+- !private ["PSo8NSCoding", "center"]
+- ["PSo8NSCoding", "defaultHeight"]
+- !private ["PSo8NSCoding", "hidden"]
+- !private ["PSo8NSCoding", "hidesWhenStopped"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", "layoutSubviews"]
+- ["PSo8NSCoding", "setupActivityIndicator"]
+- ["PSo8NSCoding", "startAnimating"]
+- ["PSo8NSCoding", "stopAnimating"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGFloat"]
+- !private ["CSo8NSObject", "CGPointMake"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "NSCoder"]
+- ["CSo8NSObject", "UIActivityIndicatorView"]
+- ["CSo8NSObject", "activityIndicatorView"]
+- !private ["CSo8NSObject", "activityIndicatorViewStyle"]
+- !private ["CSo8NSObject", "addSubview"]
+- !private ["CSo8NSObject", "bounds"]
+- !private ["CSo8NSObject", "center"]
+- ["CSo8NSObject", "defaultHeight"]
+- !private ["CSo8NSObject", "hidden"]
+- !private ["CSo8NSObject", "hidesWhenStopped"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "layoutSubviews"]
+- ["CSo8NSObject", "setupActivityIndicator"]
+- ["CSo8NSObject", "startAnimating"]
+- ["CSo8NSObject", "stopAnimating"]
+- !private ["PSo16NSObjectProtocol", "CGPointMake"]
+- ["PSo16NSObjectProtocol", "UIActivityIndicatorView"]
+- ["PSo16NSObjectProtocol", "activityIndicatorView"]
+- !private ["PSo16NSObjectProtocol", "activityIndicatorViewStyle"]
+- !private ["PSo16NSObjectProtocol", "addSubview"]
+- !private ["PSo16NSObjectProtocol", "bounds"]
+- !private ["PSo16NSObjectProtocol", "center"]
+- ["PSo16NSObjectProtocol", "defaultHeight"]
+- !private ["PSo16NSObjectProtocol", "hidden"]
+- !private ["PSo16NSObjectProtocol", "hidesWhenStopped"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "layoutSubviews"]
+- ["PSo16NSObjectProtocol", "setupActivityIndicator"]
+- ["PSo16NSObjectProtocol", "startAnimating"]
+- ["PSo16NSObjectProtocol", "stopAnimating"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSs16RawRepresentable", "Gray"]
+- !private ["PSo29UIAccessibilityIdentification", "CGPointMake"]
+- ["PSo29UIAccessibilityIdentification", "UIActivityIndicatorView"]
+- ["PSo29UIAccessibilityIdentification", "activityIndicatorView"]
+- !private ["PSo29UIAccessibilityIdentification", "activityIndicatorViewStyle"]
+- !private ["PSo29UIAccessibilityIdentification", "addSubview"]
+- !private ["PSo29UIAccessibilityIdentification", "bounds"]
+- !private ["PSo29UIAccessibilityIdentification", "center"]
+- ["PSo29UIAccessibilityIdentification", "defaultHeight"]
+- !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "hidesWhenStopped"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", "layoutSubviews"]
+- ["PSo29UIAccessibilityIdentification", "setupActivityIndicator"]
+- ["PSo29UIAccessibilityIdentification", "startAnimating"]
+- ["PSo29UIAccessibilityIdentification", "stopAnimating"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- !private ["CSo23UIActivityIndicatorView", "activityIndicatorViewStyle"]
+- !private ["CSo23UIActivityIndicatorView", "center"]
+- !private ["CSo23UIActivityIndicatorView", "hidesWhenStopped"]
+- ["CSo23UIActivityIndicatorView", "init"]
+- !private ["CSo23UIActivityIndicatorView", "startAnimating"]
+- !private ["CSo23UIActivityIndicatorView", "stopAnimating"]
+- !private ["OSC28UIActivityIndicatorViewStyle", "Gray"]
+- !private ["PSo12UIAppearance", "CGPointMake"]
+- ["PSo12UIAppearance", "UIActivityIndicatorView"]
+- ["PSo12UIAppearance", "activityIndicatorView"]
+- !private ["PSo12UIAppearance", "activityIndicatorViewStyle"]
+- !private ["PSo12UIAppearance", "addSubview"]
+- !private ["PSo12UIAppearance", "bounds"]
+- !private ["PSo12UIAppearance", "center"]
+- ["PSo12UIAppearance", "defaultHeight"]
+- !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "hidesWhenStopped"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", "layoutSubviews"]
+- ["PSo12UIAppearance", "setupActivityIndicator"]
+- ["PSo12UIAppearance", "startAnimating"]
+- ["PSo12UIAppearance", "stopAnimating"]
+- ["PSo12UIAppearance", ""]
+- !private ["PSo21UIAppearanceContainer", "CGPointMake"]
+- ["PSo21UIAppearanceContainer", "UIActivityIndicatorView"]
+- ["PSo21UIAppearanceContainer", "activityIndicatorView"]
+- !private ["PSo21UIAppearanceContainer", "activityIndicatorViewStyle"]
+- !private ["PSo21UIAppearanceContainer", "addSubview"]
+- !private ["PSo21UIAppearanceContainer", "bounds"]
+- !private ["PSo21UIAppearanceContainer", "center"]
+- ["PSo21UIAppearanceContainer", "defaultHeight"]
+- !private ["PSo21UIAppearanceContainer", "hidden"]
+- !private ["PSo21UIAppearanceContainer", "hidesWhenStopped"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", "layoutSubviews"]
+- ["PSo21UIAppearanceContainer", "setupActivityIndicator"]
+- ["PSo21UIAppearanceContainer", "startAnimating"]
+- ["PSo21UIAppearanceContainer", "stopAnimating"]
+- ["PSo21UIAppearanceContainer", ""]
+- !private ["PSo17UICoordinateSpace", "CGPointMake"]
+- ["PSo17UICoordinateSpace", "UIActivityIndicatorView"]
+- ["PSo17UICoordinateSpace", "activityIndicatorView"]
+- !private ["PSo17UICoordinateSpace", "activityIndicatorViewStyle"]
+- !private ["PSo17UICoordinateSpace", "addSubview"]
+- !private ["PSo17UICoordinateSpace", "bounds"]
+- !private ["PSo17UICoordinateSpace", "center"]
+- ["PSo17UICoordinateSpace", "defaultHeight"]
+- !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "hidesWhenStopped"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", "layoutSubviews"]
+- ["PSo17UICoordinateSpace", "setupActivityIndicator"]
+- ["PSo17UICoordinateSpace", "startAnimating"]
+- ["PSo17UICoordinateSpace", "stopAnimating"]
+- ["PSo17UICoordinateSpace", ""]
+- !private ["PSo13UIDynamicItem", "CGPointMake"]
+- ["PSo13UIDynamicItem", "UIActivityIndicatorView"]
+- ["PSo13UIDynamicItem", "activityIndicatorView"]
+- !private ["PSo13UIDynamicItem", "activityIndicatorViewStyle"]
+- !private ["PSo13UIDynamicItem", "addSubview"]
+- !private ["PSo13UIDynamicItem", "bounds"]
+- !private ["PSo13UIDynamicItem", "center"]
+- ["PSo13UIDynamicItem", "defaultHeight"]
+- !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "hidesWhenStopped"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", "layoutSubviews"]
+- ["PSo13UIDynamicItem", "setupActivityIndicator"]
+- ["PSo13UIDynamicItem", "startAnimating"]
+- ["PSo13UIDynamicItem", "stopAnimating"]
+- ["PSo13UIDynamicItem", ""]
+- !private ["PSo18UIFocusEnvironment", "CGPointMake"]
+- ["PSo18UIFocusEnvironment", "UIActivityIndicatorView"]
+- ["PSo18UIFocusEnvironment", "activityIndicatorView"]
+- !private ["PSo18UIFocusEnvironment", "activityIndicatorViewStyle"]
+- !private ["PSo18UIFocusEnvironment", "addSubview"]
+- !private ["PSo18UIFocusEnvironment", "bounds"]
+- !private ["PSo18UIFocusEnvironment", "center"]
+- ["PSo18UIFocusEnvironment", "defaultHeight"]
+- !private ["PSo18UIFocusEnvironment", "hidden"]
+- !private ["PSo18UIFocusEnvironment", "hidesWhenStopped"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", "layoutSubviews"]
+- ["PSo18UIFocusEnvironment", "setupActivityIndicator"]
+- ["PSo18UIFocusEnvironment", "startAnimating"]
+- ["PSo18UIFocusEnvironment", "stopAnimating"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CGFloat"]
+- !private ["CSo11UIResponder", "CGPointMake"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "NSCoder"]
+- ["CSo11UIResponder", "UIActivityIndicatorView"]
+- ["CSo11UIResponder", "activityIndicatorView"]
+- !private ["CSo11UIResponder", "activityIndicatorViewStyle"]
+- !private ["CSo11UIResponder", "addSubview"]
+- !private ["CSo11UIResponder", "bounds"]
+- !private ["CSo11UIResponder", "center"]
+- ["CSo11UIResponder", "defaultHeight"]
+- !private ["CSo11UIResponder", "hidden"]
+- !private ["CSo11UIResponder", "hidesWhenStopped"]
+- ["CSo11UIResponder", "init"]
+- ["CSo11UIResponder", "layoutSubviews"]
+- ["CSo11UIResponder", "setupActivityIndicator"]
+- ["CSo11UIResponder", "startAnimating"]
+- ["CSo11UIResponder", "stopAnimating"]
+- !private ["PSo18UITraitEnvironment", "CGPointMake"]
+- ["PSo18UITraitEnvironment", "UIActivityIndicatorView"]
+- ["PSo18UITraitEnvironment", "activityIndicatorView"]
+- !private ["PSo18UITraitEnvironment", "activityIndicatorViewStyle"]
+- !private ["PSo18UITraitEnvironment", "addSubview"]
+- !private ["PSo18UITraitEnvironment", "bounds"]
+- !private ["PSo18UITraitEnvironment", "center"]
+- ["PSo18UITraitEnvironment", "defaultHeight"]
+- !private ["PSo18UITraitEnvironment", "hidden"]
+- !private ["PSo18UITraitEnvironment", "hidesWhenStopped"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", "layoutSubviews"]
+- ["PSo18UITraitEnvironment", "setupActivityIndicator"]
+- ["PSo18UITraitEnvironment", "startAnimating"]
+- ["PSo18UITraitEnvironment", "stopAnimating"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGFloat"]
+- !private ["CSo6UIView", "CGPointMake"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "NSCoder"]
+- ["CSo6UIView", "UIActivityIndicatorView"]
+- ["CSo6UIView", "activityIndicatorView"]
+- !private ["CSo6UIView", "activityIndicatorViewStyle"]
+- !private ["CSo6UIView", "addSubview"]
+- !private ["CSo6UIView", "bounds"]
+- !private ["CSo6UIView", "center"]
+- ["CSo6UIView", "defaultHeight"]
+- !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "hidesWhenStopped"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", "layoutSubviews"]
+- ["CSo6UIView", "setupActivityIndicator"]
+- ["CSo6UIView", "startAnimating"]
+- ["CSo6UIView", "stopAnimating"]
+- ["CSo6UIView", ""]
+- !private ["PSs12_Reflectable", "CGPointMake"]
+- ["PSs12_Reflectable", "UIActivityIndicatorView"]
+- ["PSs12_Reflectable", "activityIndicatorView"]
+- !private ["PSs12_Reflectable", "activityIndicatorViewStyle"]
+- !private ["PSs12_Reflectable", "addSubview"]
+- !private ["PSs12_Reflectable", "bounds"]
+- !private ["PSs12_Reflectable", "center"]
+- ["PSs12_Reflectable", "defaultHeight"]
+- !private ["PSs12_Reflectable", "height"]
+- !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "hidesWhenStopped"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", "layoutSubviews"]
+- ["PSs12_Reflectable", "setupActivityIndicator"]
+- !private ["PSs12_Reflectable", "size"]
+- ["PSs12_Reflectable", "startAnimating"]
+- ["PSs12_Reflectable", "stopAnimating"]
+- !private ["PSs12_Reflectable", "width"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "V12CoreGraphics7CGFloat"
+- !private "VSC6CGRect"
+- !private "VSC6CGSize"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "C11MovieViewer19LoadingActivityView"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSs16RawRepresentable"
+- "PSo29UIAccessibilityIdentification"
+- "CSo23UIActivityIndicatorView"
+- !private "OSC28UIActivityIndicatorViewStyle"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIProgressView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIWebView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIRefreshControl+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIKit+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImageView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIImage+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIButton+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/UIActivityIndicatorView+AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkActivityIndicatorManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFImageDownloader.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFAutoPurgingImageCache.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFHTTPSessionManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLSessionManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworkReachabilityManager.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFSecurityPolicy.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLResponseSerialization.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFURLRequestSerialization.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+interface-hash: "9185e13bf754a471bc4b41a2db00ceb8"

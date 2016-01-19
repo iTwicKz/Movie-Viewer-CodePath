@@ -137,6 +137,19 @@ SWIFT_CLASS("_TtC11MovieViewer9MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSDictionary;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC11MovieViewer25MovieDetailViewController")
+@interface MovieDetailViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified detailImageView;
+@property (nonatomic, strong) NSDictionary * __null_unspecified passedMovie;
+- (void)viewDidLoad;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 @interface MovieViewCell : UICollectionViewCell
@@ -147,13 +160,12 @@ SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDictionary;
 @class UIRefreshControl;
 @class UICollectionView;
 @class NSIndexPath;
 @class UISearchBar;
+@class UIStoryboardSegue;
 @class UITableView;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 @interface MovieViewController : UIViewController <UIBarPositioningDelegate, UISearchBarDelegate, UIScrollViewDelegate, UICollectionViewDataSource>
@@ -173,6 +185,7 @@ SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 - (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (void)searchBar:(UISearchBar * __nonnull)searchBar textDidChange:(NSString * __nonnull)searchText;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

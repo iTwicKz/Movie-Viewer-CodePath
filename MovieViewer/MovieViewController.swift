@@ -191,5 +191,20 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
         // Pass the selected object to the new view controller.
     }
     */
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
+        
+        var vc = segue.destinationViewController as! MovieDetailViewController
+        var indexPath = collectionView.indexPathForCell(sender as! UICollectionViewCell)
+        
+        
+        let passMovie = movies![indexPath!.row]
+        
+        vc.passedMovie = passMovie
+        
+        
+        //         Get the new view controller using segue.destinationViewController.
+        //         Pass the selected object to the new view controller.
+    }
 
 }

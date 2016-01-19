@@ -6,66 +6,70 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer19MovieViewController", ""]
 provides-dynamic-lookup:
-- "movies"
-- "searchBar"
-- "searchBar"
-- "networkRequest"
-- "networkErrorView"
-- "viewDidLoad"
-- "refreshControl"
-- "didReceiveMemoryWarning"
-- "tableView"
 - "delay"
 - "filteredData"
-- "myActivityIndicator"
 - "collectionView"
 - "collectionView"
 - "collectionView"
+- "viewDidLoad"
 - "onRefresh"
+- "tableView"
+- "didReceiveMemoryWarning"
+- "prepareForSegue"
+- "searchBar"
+- "searchBar"
+- "networkErrorView"
+- "refreshControl"
+- "networkRequest"
+- "myActivityIndicator"
+- "movies"
 depends-top-level:
-- !private "UIControlEvents"
-- !private "NSURLSessionConfiguration"
-- "UIActivityIndicatorView"
-- "Double"
-- "UIActivityIndicatorViewStyle"
-- !private "NSURLRequest"
-- !private "StringLiteralType"
-- "UICollectionViewDataSource"
-- "UIRefreshControl"
-- !private "Int64"
-- !private "NSURLSessionDataTask"
-- "UISearchBar"
-- !private "NSLog"
-- !private "DISPATCH_TIME_NOW"
-- "MovieViewController"
-- !private "Bool"
-- !private "NSJSONSerialization"
-- !private "NSOperationQueue"
-- !private "!="
-- !private "NSURLSession"
-- "NSDictionary"
-- !private "dispatch_after"
-- "Array"
-- !private "UIColor"
-- !private "dispatch_time"
-- !private "dispatch_get_main_queue"
-- !private "*"
-- !private "MovieViewCell"
-- "UIViewController"
-- "UICollectionViewCell"
-- !private "BooleanLiteralType"
-- "UIView"
-- "UITableView"
-- !private "print"
-- "Int"
-- "String"
 - !private "+"
 - !private "NSURL"
-- !private "NSEC_PER_SEC"
+- !private "NSURLSessionDataTask"
+- "Array"
+- !private "dispatch_after"
+- "Double"
+- !private "UIColor"
+- !private "dispatch_time"
 - "UISearchBarDelegate"
+- "UIActivityIndicatorViewStyle"
+- "AnyObject"
+- !private "NSURLRequest"
 - "UIScrollViewDelegate"
+- !private "dispatch_get_main_queue"
+- !private "NSURLSession"
+- !private "StringLiteralType"
+- !private "*"
+- !private "!="
+- !private "NSLog"
+- !private "MovieViewCell"
+- !private "Int64"
+- "UIViewController"
+- "NSDictionary"
+- !private "DISPATCH_TIME_NOW"
+- !private "print"
 - "UICollectionView"
+- "Int"
+- !private "NSOperationQueue"
+- !private "NSEC_PER_SEC"
+- !private "NSJSONSerialization"
+- !private "MovieDetailViewController"
+- "MovieViewController"
+- "UIStoryboardSegue"
+- "UITableView"
+- "UIView"
+- !private "Bool"
+- "UIRefreshControl"
+- "UICollectionViewCell"
 - "NSIndexPath"
+- !private "BooleanLiteralType"
+- "UICollectionViewDataSource"
+- "UISearchBar"
+- !private "UIControlEvents"
+- !private "NSURLSessionConfiguration"
+- "String"
+- "UIActivityIndicatorView"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "DISPATCH_TIME_NOW"]
@@ -97,6 +101,7 @@ depends-member:
 - ["PSs9AnyObject", "delay"]
 - !private ["PSs9AnyObject", "delegate"]
 - !private ["PSs9AnyObject", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSs9AnyObject", "destinationViewController"]
 - ["PSs9AnyObject", "didReceiveMemoryWarning"]
 - !private ["PSs9AnyObject", "dispatch_after"]
 - !private ["PSs9AnyObject", "dispatch_get_main_queue"]
@@ -104,6 +109,7 @@ depends-member:
 - !private ["PSs9AnyObject", "endRefreshing"]
 - ["PSs9AnyObject", "filteredData"]
 - !private ["PSs9AnyObject", "hidden"]
+- !private ["PSs9AnyObject", "indexPathForCell"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "insertSubview"]
 - !private ["PSs9AnyObject", "isEmpty"]
@@ -115,8 +121,10 @@ depends-member:
 - ["PSs9AnyObject", "numberOfSectionsInCollectionView"]
 - ["PSs9AnyObject", "onRefresh"]
 - !private ["PSs9AnyObject", "overviewLabel"]
+- !private ["PSs9AnyObject", "passedMovie"]
 - ["PSs9AnyObject", "positionForBar"]
 - !private ["PSs9AnyObject", "posterView"]
+- ["PSs9AnyObject", "prepareForSegue"]
 - !private ["PSs9AnyObject", "print"]
 - !private ["PSs9AnyObject", "rangeOfString"]
 - ["PSs9AnyObject", "refreshControl"]
@@ -216,6 +224,7 @@ depends-member:
 - ["PSs11CVarArgType", "delay"]
 - !private ["PSs11CVarArgType", "delegate"]
 - !private ["PSs11CVarArgType", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSs11CVarArgType", "destinationViewController"]
 - ["PSs11CVarArgType", "didReceiveMemoryWarning"]
 - !private ["PSs11CVarArgType", "dispatch_after"]
 - !private ["PSs11CVarArgType", "dispatch_get_main_queue"]
@@ -223,6 +232,7 @@ depends-member:
 - !private ["PSs11CVarArgType", "endRefreshing"]
 - ["PSs11CVarArgType", "filteredData"]
 - !private ["PSs11CVarArgType", "hidden"]
+- !private ["PSs11CVarArgType", "indexPathForCell"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "insertSubview"]
 - !private ["PSs11CVarArgType", "isEmpty"]
@@ -234,8 +244,10 @@ depends-member:
 - ["PSs11CVarArgType", "numberOfSectionsInCollectionView"]
 - ["PSs11CVarArgType", "onRefresh"]
 - !private ["PSs11CVarArgType", "overviewLabel"]
+- !private ["PSs11CVarArgType", "passedMovie"]
 - ["PSs11CVarArgType", "positionForBar"]
 - !private ["PSs11CVarArgType", "posterView"]
+- ["PSs11CVarArgType", "prepareForSegue"]
 - !private ["PSs11CVarArgType", "print"]
 - !private ["PSs11CVarArgType", "rangeOfString"]
 - ["PSs11CVarArgType", "refreshControl"]
@@ -335,6 +347,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "delay"]
 - !private ["PSs23CustomStringConvertible", "delegate"]
 - !private ["PSs23CustomStringConvertible", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSs23CustomStringConvertible", "destinationViewController"]
 - ["PSs23CustomStringConvertible", "didReceiveMemoryWarning"]
 - !private ["PSs23CustomStringConvertible", "dispatch_after"]
 - !private ["PSs23CustomStringConvertible", "dispatch_get_main_queue"]
@@ -343,6 +356,7 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "filter"]
 - ["PSs23CustomStringConvertible", "filteredData"]
 - !private ["PSs23CustomStringConvertible", "hidden"]
+- !private ["PSs23CustomStringConvertible", "indexPathForCell"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "insertSubview"]
 - !private ["PSs23CustomStringConvertible", "isEmpty"]
@@ -354,8 +368,10 @@ depends-member:
 - ["PSs23CustomStringConvertible", "numberOfSectionsInCollectionView"]
 - ["PSs23CustomStringConvertible", "onRefresh"]
 - !private ["PSs23CustomStringConvertible", "overviewLabel"]
+- !private ["PSs23CustomStringConvertible", "passedMovie"]
 - ["PSs23CustomStringConvertible", "positionForBar"]
 - !private ["PSs23CustomStringConvertible", "posterView"]
+- ["PSs23CustomStringConvertible", "prepareForSegue"]
 - !private ["PSs23CustomStringConvertible", "print"]
 - !private ["PSs23CustomStringConvertible", "rangeOfString"]
 - ["PSs23CustomStringConvertible", "refreshControl"]
@@ -433,6 +449,7 @@ depends-member:
 - ["PSs9Equatable", "delay"]
 - !private ["PSs9Equatable", "delegate"]
 - !private ["PSs9Equatable", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSs9Equatable", "destinationViewController"]
 - ["PSs9Equatable", "didReceiveMemoryWarning"]
 - !private ["PSs9Equatable", "dispatch_after"]
 - !private ["PSs9Equatable", "dispatch_get_main_queue"]
@@ -440,6 +457,7 @@ depends-member:
 - !private ["PSs9Equatable", "endRefreshing"]
 - ["PSs9Equatable", "filteredData"]
 - !private ["PSs9Equatable", "hidden"]
+- !private ["PSs9Equatable", "indexPathForCell"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "insertSubview"]
 - !private ["PSs9Equatable", "isEmpty"]
@@ -451,8 +469,10 @@ depends-member:
 - ["PSs9Equatable", "numberOfSectionsInCollectionView"]
 - ["PSs9Equatable", "onRefresh"]
 - !private ["PSs9Equatable", "overviewLabel"]
+- !private ["PSs9Equatable", "passedMovie"]
 - ["PSs9Equatable", "positionForBar"]
 - !private ["PSs9Equatable", "posterView"]
+- ["PSs9Equatable", "prepareForSegue"]
 - !private ["PSs9Equatable", "print"]
 - !private ["PSs9Equatable", "rangeOfString"]
 - ["PSs9Equatable", "refreshControl"]
@@ -534,6 +554,7 @@ depends-member:
 - ["PSs8Hashable", "delay"]
 - !private ["PSs8Hashable", "delegate"]
 - !private ["PSs8Hashable", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSs8Hashable", "destinationViewController"]
 - ["PSs8Hashable", "didReceiveMemoryWarning"]
 - !private ["PSs8Hashable", "dispatch_after"]
 - !private ["PSs8Hashable", "dispatch_get_main_queue"]
@@ -541,6 +562,7 @@ depends-member:
 - !private ["PSs8Hashable", "endRefreshing"]
 - ["PSs8Hashable", "filteredData"]
 - !private ["PSs8Hashable", "hidden"]
+- !private ["PSs8Hashable", "indexPathForCell"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "insertSubview"]
 - !private ["PSs8Hashable", "isEmpty"]
@@ -552,8 +574,10 @@ depends-member:
 - ["PSs8Hashable", "numberOfSectionsInCollectionView"]
 - ["PSs8Hashable", "onRefresh"]
 - !private ["PSs8Hashable", "overviewLabel"]
+- !private ["PSs8Hashable", "passedMovie"]
 - ["PSs8Hashable", "positionForBar"]
 - !private ["PSs8Hashable", "posterView"]
+- ["PSs8Hashable", "prepareForSegue"]
 - !private ["PSs8Hashable", "print"]
 - !private ["PSs8Hashable", "rangeOfString"]
 - ["PSs8Hashable", "refreshControl"]
@@ -623,14 +647,17 @@ depends-member:
 - !private ["PSs14MirrorPathType", "init"]
 - !private ["PSs14MirrorPathType", "isEmpty"]
 - !private ["PSs14MirrorPathType", "rangeOfString"]
+- !private ["C11MovieViewer25MovieDetailViewController", "passedMovie"]
 - !private ["C11MovieViewer13MovieViewCell", "overviewLabel"]
 - !private ["C11MovieViewer13MovieViewCell", "posterView"]
 - !private ["C11MovieViewer13MovieViewCell", "titleLabel"]
+- ["C11MovieViewer19MovieViewController", "AnyObject"]
 - !private ["C11MovieViewer19MovieViewController", "Bool"]
 - !private ["C11MovieViewer19MovieViewController", "DISPATCH_TIME_NOW"]
 - ["C11MovieViewer19MovieViewController", "Double"]
 - ["C11MovieViewer19MovieViewController", "Int"]
 - !private ["C11MovieViewer19MovieViewController", "Int64"]
+- !private ["C11MovieViewer19MovieViewController", "MovieDetailViewController"]
 - !private ["C11MovieViewer19MovieViewController", "MovieViewCell"]
 - ["C11MovieViewer19MovieViewController", "NSDictionary"]
 - !private ["C11MovieViewer19MovieViewController", "NSEC_PER_SEC"]
@@ -652,6 +679,7 @@ depends-member:
 - !private ["C11MovieViewer19MovieViewController", "UIControlEvents"]
 - ["C11MovieViewer19MovieViewController", "UIRefreshControl"]
 - ["C11MovieViewer19MovieViewController", "UISearchBar"]
+- ["C11MovieViewer19MovieViewController", "UIStoryboardSegue"]
 - ["C11MovieViewer19MovieViewController", "UITableView"]
 - ["C11MovieViewer19MovieViewController", "UIView"]
 - ["C11MovieViewer19MovieViewController", "collectionView"]
@@ -670,6 +698,7 @@ depends-member:
 - ["C11MovieViewer19MovieViewController", "numberOfSectionsInCollectionView"]
 - ["C11MovieViewer19MovieViewController", "onRefresh"]
 - ["C11MovieViewer19MovieViewController", "positionForBar"]
+- ["C11MovieViewer19MovieViewController", "prepareForSegue"]
 - !private ["C11MovieViewer19MovieViewController", "print"]
 - ["C11MovieViewer19MovieViewController", "refreshControl"]
 - ["C11MovieViewer19MovieViewController", "scrollViewDidEndDecelerating"]
@@ -751,6 +780,7 @@ depends-member:
 - !private ["PSo8NSCoding", "endRefreshing"]
 - ["PSo8NSCoding", "filteredData"]
 - !private ["PSo8NSCoding", "hidden"]
+- !private ["PSo8NSCoding", "indexPathForCell"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "insertSubview"]
 - !private ["PSo8NSCoding", "isEmpty"]
@@ -761,8 +791,10 @@ depends-member:
 - ["PSo8NSCoding", "numberOfSectionsInCollectionView"]
 - ["PSo8NSCoding", "onRefresh"]
 - !private ["PSo8NSCoding", "overviewLabel"]
+- !private ["PSo8NSCoding", "passedMovie"]
 - ["PSo8NSCoding", "positionForBar"]
 - !private ["PSo8NSCoding", "posterView"]
+- ["PSo8NSCoding", "prepareForSegue"]
 - !private ["PSo8NSCoding", "print"]
 - !private ["PSo8NSCoding", "rangeOfString"]
 - ["PSo8NSCoding", "refreshControl"]
@@ -840,7 +872,9 @@ depends-member:
 - ["PSo26NSExtensionRequestHandling", "networkRequest"]
 - ["PSo26NSExtensionRequestHandling", "numberOfSectionsInCollectionView"]
 - ["PSo26NSExtensionRequestHandling", "onRefresh"]
+- !private ["PSo26NSExtensionRequestHandling", "passedMovie"]
 - ["PSo26NSExtensionRequestHandling", "positionForBar"]
+- ["PSo26NSExtensionRequestHandling", "prepareForSegue"]
 - !private ["PSo26NSExtensionRequestHandling", "print"]
 - ["PSo26NSExtensionRequestHandling", "refreshControl"]
 - ["PSo26NSExtensionRequestHandling", "scrollViewDidEndDecelerating"]
@@ -877,12 +911,14 @@ depends-member:
 - !private ["PSo16NSMutableCopying", "isEmpty"]
 - !private ["PSo16NSMutableCopying", "rangeOfString"]
 - !private ["PSo16NSMutableCopying", "subscript"]
+- ["CSo8NSObject", "AnyObject"]
 - !private ["CSo8NSObject", "Bool"]
 - !private ["CSo8NSObject", "DISPATCH_TIME_NOW"]
 - ["CSo8NSObject", "Double"]
 - ["CSo8NSObject", "Int"]
 - !private ["CSo8NSObject", "Int64"]
 - !private ["CSo8NSObject", "JSONObjectWithData"]
+- !private ["CSo8NSObject", "MovieDetailViewController"]
 - !private ["CSo8NSObject", "MovieViewCell"]
 - ["CSo8NSObject", "NSDictionary"]
 - !private ["CSo8NSObject", "NSEC_PER_SEC"]
@@ -904,6 +940,7 @@ depends-member:
 - !private ["CSo8NSObject", "UIControlEvents"]
 - ["CSo8NSObject", "UIRefreshControl"]
 - ["CSo8NSObject", "UISearchBar"]
+- ["CSo8NSObject", "UIStoryboardSegue"]
 - ["CSo8NSObject", "UITableView"]
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addSubview"]
@@ -918,6 +955,7 @@ depends-member:
 - ["CSo8NSObject", "delay"]
 - !private ["CSo8NSObject", "delegate"]
 - !private ["CSo8NSObject", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo8NSObject", "destinationViewController"]
 - ["CSo8NSObject", "didReceiveMemoryWarning"]
 - !private ["CSo8NSObject", "dispatch_after"]
 - !private ["CSo8NSObject", "dispatch_get_main_queue"]
@@ -925,6 +963,7 @@ depends-member:
 - !private ["CSo8NSObject", "endRefreshing"]
 - ["CSo8NSObject", "filteredData"]
 - !private ["CSo8NSObject", "hidden"]
+- !private ["CSo8NSObject", "indexPathForCell"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "insertSubview"]
 - !private ["CSo8NSObject", "isEmpty"]
@@ -936,8 +975,10 @@ depends-member:
 - ["CSo8NSObject", "numberOfSectionsInCollectionView"]
 - ["CSo8NSObject", "onRefresh"]
 - !private ["CSo8NSObject", "overviewLabel"]
+- !private ["CSo8NSObject", "passedMovie"]
 - ["CSo8NSObject", "positionForBar"]
 - !private ["CSo8NSObject", "posterView"]
+- ["CSo8NSObject", "prepareForSegue"]
 - !private ["CSo8NSObject", "print"]
 - !private ["CSo8NSObject", "rangeOfString"]
 - ["CSo8NSObject", "refreshControl"]
@@ -1004,6 +1045,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "delay"]
 - !private ["PSo16NSObjectProtocol", "delegate"]
 - !private ["PSo16NSObjectProtocol", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["PSo16NSObjectProtocol", "destinationViewController"]
 - ["PSo16NSObjectProtocol", "didReceiveMemoryWarning"]
 - !private ["PSo16NSObjectProtocol", "dispatch_after"]
 - !private ["PSo16NSObjectProtocol", "dispatch_get_main_queue"]
@@ -1011,6 +1053,7 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "endRefreshing"]
 - ["PSo16NSObjectProtocol", "filteredData"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
+- !private ["PSo16NSObjectProtocol", "indexPathForCell"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "insertSubview"]
 - !private ["PSo16NSObjectProtocol", "isEmpty"]
@@ -1022,8 +1065,10 @@ depends-member:
 - ["PSo16NSObjectProtocol", "numberOfSectionsInCollectionView"]
 - ["PSo16NSObjectProtocol", "onRefresh"]
 - !private ["PSo16NSObjectProtocol", "overviewLabel"]
+- !private ["PSo16NSObjectProtocol", "passedMovie"]
 - ["PSo16NSObjectProtocol", "positionForBar"]
 - !private ["PSo16NSObjectProtocol", "posterView"]
+- ["PSo16NSObjectProtocol", "prepareForSegue"]
 - !private ["PSo16NSObjectProtocol", "print"]
 - !private ["PSo16NSObjectProtocol", "rangeOfString"]
 - ["PSo16NSObjectProtocol", "refreshControl"]
@@ -1151,6 +1196,7 @@ depends-member:
 - !private ["PSo29UIAccessibilityIdentification", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSo29UIAccessibilityIdentification", "endRefreshing"]
 - !private ["PSo29UIAccessibilityIdentification", "hidden"]
+- !private ["PSo29UIAccessibilityIdentification", "indexPathForCell"]
 - ["PSo29UIAccessibilityIdentification", "init"]
 - !private ["PSo29UIAccessibilityIdentification", "insertSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "overviewLabel"]
@@ -1176,6 +1222,7 @@ depends-member:
 - !private ["PSo12UIAppearance", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSo12UIAppearance", "endRefreshing"]
 - !private ["PSo12UIAppearance", "hidden"]
+- !private ["PSo12UIAppearance", "indexPathForCell"]
 - ["PSo12UIAppearance", "init"]
 - !private ["PSo12UIAppearance", "insertSubview"]
 - !private ["PSo12UIAppearance", "overviewLabel"]
@@ -1218,6 +1265,7 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "endRefreshing"]
 - ["PSo21UIAppearanceContainer", "filteredData"]
 - !private ["PSo21UIAppearanceContainer", "hidden"]
+- !private ["PSo21UIAppearanceContainer", "indexPathForCell"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "insertSubview"]
 - ["PSo21UIAppearanceContainer", "movies"]
@@ -1227,8 +1275,10 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "numberOfSectionsInCollectionView"]
 - ["PSo21UIAppearanceContainer", "onRefresh"]
 - !private ["PSo21UIAppearanceContainer", "overviewLabel"]
+- !private ["PSo21UIAppearanceContainer", "passedMovie"]
 - ["PSo21UIAppearanceContainer", "positionForBar"]
 - !private ["PSo21UIAppearanceContainer", "posterView"]
+- ["PSo21UIAppearanceContainer", "prepareForSegue"]
 - !private ["PSo21UIAppearanceContainer", "print"]
 - ["PSo21UIAppearanceContainer", "refreshControl"]
 - !private ["PSo21UIAppearanceContainer", "reloadData"]
@@ -1323,6 +1373,7 @@ depends-member:
 - !private ["CSo24UICollectionReusableView", "titleLabel"]
 - !private ["CSo16UICollectionView", "dataSource"]
 - !private ["CSo16UICollectionView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo16UICollectionView", "indexPathForCell"]
 - !private ["CSo16UICollectionView", "insertSubview"]
 - !private ["CSo16UICollectionView", "reloadData"]
 - !private ["CSo20UICollectionViewCell", "deinit"]
@@ -1414,7 +1465,9 @@ depends-member:
 - ["PSo18UIContentContainer", "networkRequest"]
 - ["PSo18UIContentContainer", "numberOfSectionsInCollectionView"]
 - ["PSo18UIContentContainer", "onRefresh"]
+- !private ["PSo18UIContentContainer", "passedMovie"]
 - ["PSo18UIContentContainer", "positionForBar"]
+- ["PSo18UIContentContainer", "prepareForSegue"]
 - !private ["PSo18UIContentContainer", "print"]
 - ["PSo18UIContentContainer", "refreshControl"]
 - ["PSo18UIContentContainer", "scrollViewDidEndDecelerating"]
@@ -1456,6 +1509,7 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSo17UICoordinateSpace", "endRefreshing"]
 - !private ["PSo17UICoordinateSpace", "hidden"]
+- !private ["PSo17UICoordinateSpace", "indexPathForCell"]
 - ["PSo17UICoordinateSpace", "init"]
 - !private ["PSo17UICoordinateSpace", "insertSubview"]
 - !private ["PSo17UICoordinateSpace", "overviewLabel"]
@@ -1475,6 +1529,7 @@ depends-member:
 - !private ["PSo13UIDynamicItem", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["PSo13UIDynamicItem", "endRefreshing"]
 - !private ["PSo13UIDynamicItem", "hidden"]
+- !private ["PSo13UIDynamicItem", "indexPathForCell"]
 - ["PSo13UIDynamicItem", "init"]
 - !private ["PSo13UIDynamicItem", "insertSubview"]
 - !private ["PSo13UIDynamicItem", "overviewLabel"]
@@ -1517,6 +1572,7 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "endRefreshing"]
 - ["PSo18UIFocusEnvironment", "filteredData"]
 - !private ["PSo18UIFocusEnvironment", "hidden"]
+- !private ["PSo18UIFocusEnvironment", "indexPathForCell"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "insertSubview"]
 - ["PSo18UIFocusEnvironment", "movies"]
@@ -1526,8 +1582,10 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "numberOfSectionsInCollectionView"]
 - ["PSo18UIFocusEnvironment", "onRefresh"]
 - !private ["PSo18UIFocusEnvironment", "overviewLabel"]
+- !private ["PSo18UIFocusEnvironment", "passedMovie"]
 - ["PSo18UIFocusEnvironment", "positionForBar"]
 - !private ["PSo18UIFocusEnvironment", "posterView"]
+- ["PSo18UIFocusEnvironment", "prepareForSegue"]
 - !private ["PSo18UIFocusEnvironment", "print"]
 - ["PSo18UIFocusEnvironment", "refreshControl"]
 - !private ["PSo18UIFocusEnvironment", "reloadData"]
@@ -1567,11 +1625,13 @@ depends-member:
 - !private ["CSo16UIRefreshControl", "addTarget"]
 - !private ["CSo16UIRefreshControl", "endRefreshing"]
 - !private ["CSo16UIRefreshControl", "init"]
+- ["CSo11UIResponder", "AnyObject"]
 - !private ["CSo11UIResponder", "Bool"]
 - !private ["CSo11UIResponder", "DISPATCH_TIME_NOW"]
 - ["CSo11UIResponder", "Double"]
 - ["CSo11UIResponder", "Int"]
 - !private ["CSo11UIResponder", "Int64"]
+- !private ["CSo11UIResponder", "MovieDetailViewController"]
 - !private ["CSo11UIResponder", "MovieViewCell"]
 - ["CSo11UIResponder", "NSDictionary"]
 - !private ["CSo11UIResponder", "NSEC_PER_SEC"]
@@ -1593,6 +1653,7 @@ depends-member:
 - !private ["CSo11UIResponder", "UIControlEvents"]
 - ["CSo11UIResponder", "UIRefreshControl"]
 - ["CSo11UIResponder", "UISearchBar"]
+- ["CSo11UIResponder", "UIStoryboardSegue"]
 - ["CSo11UIResponder", "UITableView"]
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "addSubview"]
@@ -1611,6 +1672,7 @@ depends-member:
 - !private ["CSo11UIResponder", "endRefreshing"]
 - ["CSo11UIResponder", "filteredData"]
 - !private ["CSo11UIResponder", "hidden"]
+- !private ["CSo11UIResponder", "indexPathForCell"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "insertSubview"]
 - ["CSo11UIResponder", "movies"]
@@ -1620,8 +1682,10 @@ depends-member:
 - ["CSo11UIResponder", "numberOfSectionsInCollectionView"]
 - ["CSo11UIResponder", "onRefresh"]
 - !private ["CSo11UIResponder", "overviewLabel"]
+- !private ["CSo11UIResponder", "passedMovie"]
 - ["CSo11UIResponder", "positionForBar"]
 - !private ["CSo11UIResponder", "posterView"]
+- ["CSo11UIResponder", "prepareForSegue"]
 - !private ["CSo11UIResponder", "print"]
 - ["CSo11UIResponder", "refreshControl"]
 - !private ["CSo11UIResponder", "reloadData"]
@@ -1657,6 +1721,7 @@ depends-member:
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
 - !private ["CSo12UIScrollView", "dataSource"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithReuseIdentifier"]
+- !private ["CSo12UIScrollView", "indexPathForCell"]
 - !private ["CSo12UIScrollView", "insertSubview"]
 - !private ["CSo12UIScrollView", "reloadData"]
 - !private ["PSo20UIScrollViewDelegate", "DISPATCH_TIME_NOW"]
@@ -1798,7 +1863,9 @@ depends-member:
 - ["PSo16UIStateRestoring", "networkRequest"]
 - ["PSo16UIStateRestoring", "numberOfSectionsInCollectionView"]
 - ["PSo16UIStateRestoring", "onRefresh"]
+- !private ["PSo16UIStateRestoring", "passedMovie"]
 - ["PSo16UIStateRestoring", "positionForBar"]
+- ["PSo16UIStateRestoring", "prepareForSegue"]
 - !private ["PSo16UIStateRestoring", "print"]
 - ["PSo16UIStateRestoring", "refreshControl"]
 - ["PSo16UIStateRestoring", "scrollViewDidEndDecelerating"]
@@ -1827,6 +1894,7 @@ depends-member:
 - ["PSo16UIStateRestoring", "viewDidLoad"]
 - ["PSo16UIStateRestoring", "viewForZoomingInScrollView"]
 - ["PSo16UIStateRestoring", ""]
+- !private ["CSo17UIStoryboardSegue", "destinationViewController"]
 - !private ["PSo17UITextInputTraits", "delegate"]
 - !private ["PSo18UITraitEnvironment", "DISPATCH_TIME_NOW"]
 - !private ["PSo18UITraitEnvironment", "Double"]
@@ -1860,6 +1928,7 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "endRefreshing"]
 - ["PSo18UITraitEnvironment", "filteredData"]
 - !private ["PSo18UITraitEnvironment", "hidden"]
+- !private ["PSo18UITraitEnvironment", "indexPathForCell"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "insertSubview"]
 - ["PSo18UITraitEnvironment", "movies"]
@@ -1869,8 +1938,10 @@ depends-member:
 - ["PSo18UITraitEnvironment", "numberOfSectionsInCollectionView"]
 - ["PSo18UITraitEnvironment", "onRefresh"]
 - !private ["PSo18UITraitEnvironment", "overviewLabel"]
+- !private ["PSo18UITraitEnvironment", "passedMovie"]
 - ["PSo18UITraitEnvironment", "positionForBar"]
 - !private ["PSo18UITraitEnvironment", "posterView"]
+- ["PSo18UITraitEnvironment", "prepareForSegue"]
 - !private ["PSo18UITraitEnvironment", "print"]
 - ["PSo18UITraitEnvironment", "refreshControl"]
 - !private ["PSo18UITraitEnvironment", "reloadData"]
@@ -1914,6 +1985,7 @@ depends-member:
 - !private ["CSo6UIView", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["CSo6UIView", "endRefreshing"]
 - !private ["CSo6UIView", "hidden"]
+- !private ["CSo6UIView", "indexPathForCell"]
 - ["CSo6UIView", "init"]
 - !private ["CSo6UIView", "insertSubview"]
 - !private ["CSo6UIView", "overviewLabel"]
@@ -1924,11 +1996,13 @@ depends-member:
 - !private ["CSo6UIView", "stopAnimating"]
 - !private ["CSo6UIView", "text"]
 - !private ["CSo6UIView", "titleLabel"]
+- ["CSo16UIViewController", "AnyObject"]
 - !private ["CSo16UIViewController", "Bool"]
 - !private ["CSo16UIViewController", "DISPATCH_TIME_NOW"]
 - ["CSo16UIViewController", "Double"]
 - ["CSo16UIViewController", "Int"]
 - !private ["CSo16UIViewController", "Int64"]
+- !private ["CSo16UIViewController", "MovieDetailViewController"]
 - !private ["CSo16UIViewController", "MovieViewCell"]
 - ["CSo16UIViewController", "NSDictionary"]
 - !private ["CSo16UIViewController", "NSEC_PER_SEC"]
@@ -1950,9 +2024,11 @@ depends-member:
 - !private ["CSo16UIViewController", "UIControlEvents"]
 - ["CSo16UIViewController", "UIRefreshControl"]
 - ["CSo16UIViewController", "UISearchBar"]
+- ["CSo16UIViewController", "UIStoryboardSegue"]
 - ["CSo16UIViewController", "UITableView"]
 - ["CSo16UIViewController", "UIView"]
 - ["CSo16UIViewController", "collectionView"]
+- !private ["CSo16UIViewController", "deinit"]
 - ["CSo16UIViewController", "delay"]
 - ["CSo16UIViewController", "didReceiveMemoryWarning"]
 - !private ["CSo16UIViewController", "dispatch_after"]
@@ -1966,7 +2042,9 @@ depends-member:
 - ["CSo16UIViewController", "networkRequest"]
 - ["CSo16UIViewController", "numberOfSectionsInCollectionView"]
 - ["CSo16UIViewController", "onRefresh"]
+- !private ["CSo16UIViewController", "passedMovie"]
 - ["CSo16UIViewController", "positionForBar"]
+- ["CSo16UIViewController", "prepareForSegue"]
 - !private ["CSo16UIViewController", "print"]
 - ["CSo16UIViewController", "refreshControl"]
 - ["CSo16UIViewController", "scrollViewDidEndDecelerating"]
@@ -2087,6 +2165,7 @@ depends-member:
 - !private ["PSs12_Reflectable", "endRefreshing"]
 - !private ["PSs12_Reflectable", "filter"]
 - !private ["PSs12_Reflectable", "hidden"]
+- !private ["PSs12_Reflectable", "indexPathForCell"]
 - ["PSs12_Reflectable", "init"]
 - !private ["PSs12_Reflectable", "insertSubview"]
 - !private ["PSs12_Reflectable", "isEmpty"]
@@ -2145,6 +2224,7 @@ depends-nominal:
 - !private "PSs25IntegerLiteralConvertible"
 - !private "PSs11IntegerType"
 - !private "PSs14MirrorPathType"
+- !private "C11MovieViewer25MovieDetailViewController"
 - !private "C11MovieViewer13MovieViewCell"
 - "C11MovieViewer19MovieViewController"
 - !private "PSs21MutableCollectionType"
@@ -2216,6 +2296,7 @@ depends-nominal:
 - !private "CSo11UISearchBar"
 - "PSo19UISearchBarDelegate"
 - "PSo16UIStateRestoring"
+- !private "CSo17UIStoryboardSegue"
 - !private "PSo17UITextInputTraits"
 - "PSo18UITraitEnvironment"
 - "CSo6UIView"
@@ -2280,4 +2361,4 @@ depends-external:
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
-interface-hash: "9214f5649f723c90a99240fa3d3faf59"
+interface-hash: "5e8ab7d59dad809802994a8f834cdda8"
