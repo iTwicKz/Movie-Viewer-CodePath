@@ -8,7 +8,7 @@
 
 import UIKit
 
-class TopRatedViewController: UIViewController, UICollectionViewDataSource, UISearchBarDelegate {
+class TopRatedViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate {
 
     @IBOutlet weak var searchBar: UISearchBar!
     
@@ -32,6 +32,7 @@ class TopRatedViewController: UIViewController, UICollectionViewDataSource, UISe
         self.networkErrorView.hidden = true
         
         collectionView.dataSource = self
+        collectionView.delegate = self
         searchBar.delegate = self
         
         myActivityIndicator.color = UIColor.blackColor()
@@ -115,6 +116,17 @@ class TopRatedViewController: UIViewController, UICollectionViewDataSource, UISe
             self.refreshControl.endRefreshing()
             self.networkRequest()
         })
+    }
+    
+    
+    //MARK: Selection effect
+    func collectionView(collectionView: UICollectionView, didHighlightItemAtIndexPath indexPath: NSIndexPath){
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        cell?.alpha = 0.5
+    }
+    func collectionView(collectionView: UICollectionView, didUnhighlightItemAtIndexPath indexPath: NSIndexPath){
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        cell?.alpha = 1.0
     }
     
     

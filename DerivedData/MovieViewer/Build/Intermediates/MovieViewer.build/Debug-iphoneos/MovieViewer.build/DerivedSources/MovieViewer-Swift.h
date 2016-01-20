@@ -168,7 +168,7 @@ SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 @class UITableView;
 
 SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
-@interface MovieViewController : UIViewController <UIBarPositioningDelegate, UISearchBarDelegate, UIScrollViewDelegate, UICollectionViewDataSource>
+@interface MovieViewController : UIViewController <UIBarPositioningDelegate, UICollectionViewDelegate, UIScrollViewDelegate, UISearchBarDelegate, UICollectionViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UISearchBar * __null_unspecified searchBar;
 @property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
@@ -183,6 +183,8 @@ SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 - (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
 - (void)onRefresh;
 - (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didHighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (void)searchBar:(UISearchBar * __nonnull)searchBar textDidChange:(NSString * __nonnull)searchText;
 - (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
@@ -192,7 +194,7 @@ SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 
 
 SWIFT_CLASS("_TtC11MovieViewer22TopRatedViewController")
-@interface TopRatedViewController : UIViewController <UIBarPositioningDelegate, UISearchBarDelegate, UICollectionViewDataSource>
+@interface TopRatedViewController : UIViewController <UIBarPositioningDelegate, UICollectionViewDelegate, UIScrollViewDelegate, UISearchBarDelegate, UICollectionViewDataSource>
 @property (nonatomic, weak) IBOutlet UISearchBar * __null_unspecified searchBar;
 @property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
 @property (nonatomic, weak) IBOutlet UIView * __null_unspecified networkErrorView;
@@ -205,6 +207,8 @@ SWIFT_CLASS("_TtC11MovieViewer22TopRatedViewController")
 - (void)didReceiveMemoryWarning;
 - (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
 - (void)onRefresh;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didHighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (void)searchBar:(UISearchBar * __nonnull)searchBar textDidChange:(NSString * __nonnull)searchText;

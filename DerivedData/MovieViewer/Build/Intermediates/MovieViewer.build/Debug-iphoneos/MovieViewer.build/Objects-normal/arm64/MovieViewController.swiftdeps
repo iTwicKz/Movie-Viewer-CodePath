@@ -6,70 +6,73 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer19MovieViewController", ""]
 provides-dynamic-lookup:
+- "prepareForSegue"
 - "delay"
 - "filteredData"
-- "collectionView"
-- "collectionView"
-- "collectionView"
-- "viewDidLoad"
-- "onRefresh"
-- "tableView"
+- "myActivityIndicator"
 - "didReceiveMemoryWarning"
-- "prepareForSegue"
+- "movies"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "collectionView"
+- "tableView"
+- "networkRequest"
 - "searchBar"
 - "searchBar"
+- "viewDidLoad"
 - "networkErrorView"
 - "refreshControl"
-- "networkRequest"
-- "myActivityIndicator"
-- "movies"
+- "onRefresh"
 depends-top-level:
-- !private "+"
-- !private "NSURL"
-- !private "NSURLSessionDataTask"
-- "Array"
-- !private "dispatch_after"
-- "Double"
-- !private "UIColor"
-- !private "dispatch_time"
-- "UISearchBarDelegate"
-- "UIActivityIndicatorViewStyle"
-- "AnyObject"
-- !private "NSURLRequest"
-- "UIScrollViewDelegate"
-- !private "dispatch_get_main_queue"
-- !private "NSURLSession"
-- !private "StringLiteralType"
-- !private "*"
-- !private "!="
-- !private "NSLog"
-- !private "MovieViewCell"
-- !private "Int64"
-- "UIViewController"
-- "NSDictionary"
-- !private "DISPATCH_TIME_NOW"
-- !private "print"
-- "UICollectionView"
-- "Int"
-- !private "NSOperationQueue"
-- !private "NSEC_PER_SEC"
-- !private "NSJSONSerialization"
-- !private "MovieDetailViewController"
 - "MovieViewController"
-- "UIStoryboardSegue"
-- "UITableView"
-- "UIView"
-- !private "Bool"
-- "UIRefreshControl"
-- "UICollectionViewCell"
-- "NSIndexPath"
+- !private "NSURL"
 - !private "BooleanLiteralType"
-- "UICollectionViewDataSource"
+- !private "dispatch_get_main_queue"
+- !private "Bool"
+- "UIActivityIndicatorViewStyle"
+- "Double"
+- !private "dispatch_after"
+- !private "UIColor"
 - "UISearchBar"
-- !private "UIControlEvents"
+- !private "NSURLSessionDataTask"
+- "UICollectionView"
 - !private "NSURLSessionConfiguration"
-- "String"
 - "UIActivityIndicatorView"
+- !private "dispatch_time"
+- !private "+"
+- "UICollectionViewCell"
+- "AnyObject"
+- !private "NSLog"
+- "NSDictionary"
+- "UISearchBarDelegate"
+- !private "NSOperationQueue"
+- "UIRefreshControl"
+- "Array"
+- "UIScrollViewDelegate"
+- "UIStoryboardSegue"
+- "String"
+- "UICollectionViewDataSource"
+- "UIView"
+- !private "NSURLSession"
+- !private "NSURLRequest"
+- !private "NSEC_PER_SEC"
+- "NSIndexPath"
+- !private "UIControlEvents"
+- !private "MovieViewCell"
+- !private "StringLiteralType"
+- !private "DISPATCH_TIME_NOW"
+- "UITableView"
+- !private "Int64"
+- !private "MovieDetailViewController"
+- !private "!="
+- !private "NSJSONSerialization"
+- "UIViewController"
+- "Int"
+- !private "*"
+- "UICollectionViewDelegate"
+- !private "print"
 depends-member:
 - !private ["PSs16AbsoluteValuable", "init"]
 - !private ["PSs9AnyObject", "DISPATCH_TIME_NOW"]
@@ -91,7 +94,9 @@ depends-member:
 - !private ["PSs9AnyObject", "UIRefreshControl"]
 - !private ["PSs9AnyObject", "addSubview"]
 - !private ["PSs9AnyObject", "addTarget"]
+- !private ["PSs9AnyObject", "alpha"]
 - !private ["PSs9AnyObject", "blackColor"]
+- !private ["PSs9AnyObject", "cellForItemAtIndexPath"]
 - !private ["PSs9AnyObject", "center"]
 - ["PSs9AnyObject", "collectionView"]
 - !private ["PSs9AnyObject", "color"]
@@ -110,6 +115,7 @@ depends-member:
 - ["PSs9AnyObject", "filteredData"]
 - !private ["PSs9AnyObject", "hidden"]
 - !private ["PSs9AnyObject", "indexPathForCell"]
+- ["PSs9AnyObject", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs9AnyObject", "init"]
 - !private ["PSs9AnyObject", "insertSubview"]
 - !private ["PSs9AnyObject", "isEmpty"]
@@ -193,6 +199,7 @@ depends-member:
 - !private ["Sb", "deinit"]
 - !private ["PSs25BooleanLiteralConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs11BooleanType", "_getBuiltinLogicValue"]
+- !private ["V12CoreGraphics7CGFloat", "deinit"]
 - !private ["PSs11CVarArgType", "DISPATCH_TIME_NOW"]
 - !private ["PSs11CVarArgType", "Distance"]
 - !private ["PSs11CVarArgType", "Double"]
@@ -214,7 +221,9 @@ depends-member:
 - !private ["PSs11CVarArgType", "UIRefreshControl"]
 - !private ["PSs11CVarArgType", "addSubview"]
 - !private ["PSs11CVarArgType", "addTarget"]
+- !private ["PSs11CVarArgType", "alpha"]
 - !private ["PSs11CVarArgType", "blackColor"]
+- !private ["PSs11CVarArgType", "cellForItemAtIndexPath"]
 - !private ["PSs11CVarArgType", "center"]
 - ["PSs11CVarArgType", "collectionView"]
 - !private ["PSs11CVarArgType", "color"]
@@ -233,6 +242,7 @@ depends-member:
 - ["PSs11CVarArgType", "filteredData"]
 - !private ["PSs11CVarArgType", "hidden"]
 - !private ["PSs11CVarArgType", "indexPathForCell"]
+- ["PSs11CVarArgType", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs11CVarArgType", "init"]
 - !private ["PSs11CVarArgType", "insertSubview"]
 - !private ["PSs11CVarArgType", "isEmpty"]
@@ -336,7 +346,9 @@ depends-member:
 - !private ["PSs23CustomStringConvertible", "_getBuiltinLogicValue"]
 - !private ["PSs23CustomStringConvertible", "addSubview"]
 - !private ["PSs23CustomStringConvertible", "addTarget"]
+- !private ["PSs23CustomStringConvertible", "alpha"]
 - !private ["PSs23CustomStringConvertible", "blackColor"]
+- !private ["PSs23CustomStringConvertible", "cellForItemAtIndexPath"]
 - !private ["PSs23CustomStringConvertible", "center"]
 - ["PSs23CustomStringConvertible", "collectionView"]
 - !private ["PSs23CustomStringConvertible", "color"]
@@ -357,6 +369,7 @@ depends-member:
 - ["PSs23CustomStringConvertible", "filteredData"]
 - !private ["PSs23CustomStringConvertible", "hidden"]
 - !private ["PSs23CustomStringConvertible", "indexPathForCell"]
+- ["PSs23CustomStringConvertible", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs23CustomStringConvertible", "init"]
 - !private ["PSs23CustomStringConvertible", "insertSubview"]
 - !private ["PSs23CustomStringConvertible", "isEmpty"]
@@ -439,7 +452,9 @@ depends-member:
 - !private ["PSs9Equatable", "_getBuiltinLogicValue"]
 - !private ["PSs9Equatable", "addSubview"]
 - !private ["PSs9Equatable", "addTarget"]
+- !private ["PSs9Equatable", "alpha"]
 - !private ["PSs9Equatable", "blackColor"]
+- !private ["PSs9Equatable", "cellForItemAtIndexPath"]
 - !private ["PSs9Equatable", "center"]
 - ["PSs9Equatable", "collectionView"]
 - !private ["PSs9Equatable", "color"]
@@ -458,6 +473,7 @@ depends-member:
 - ["PSs9Equatable", "filteredData"]
 - !private ["PSs9Equatable", "hidden"]
 - !private ["PSs9Equatable", "indexPathForCell"]
+- ["PSs9Equatable", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs9Equatable", "init"]
 - !private ["PSs9Equatable", "insertSubview"]
 - !private ["PSs9Equatable", "isEmpty"]
@@ -544,7 +560,9 @@ depends-member:
 - !private ["PSs8Hashable", "_getBuiltinLogicValue"]
 - !private ["PSs8Hashable", "addSubview"]
 - !private ["PSs8Hashable", "addTarget"]
+- !private ["PSs8Hashable", "alpha"]
 - !private ["PSs8Hashable", "blackColor"]
+- !private ["PSs8Hashable", "cellForItemAtIndexPath"]
 - !private ["PSs8Hashable", "center"]
 - ["PSs8Hashable", "collectionView"]
 - !private ["PSs8Hashable", "color"]
@@ -563,6 +581,7 @@ depends-member:
 - ["PSs8Hashable", "filteredData"]
 - !private ["PSs8Hashable", "hidden"]
 - !private ["PSs8Hashable", "indexPathForCell"]
+- ["PSs8Hashable", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSs8Hashable", "init"]
 - !private ["PSs8Hashable", "insertSubview"]
 - !private ["PSs8Hashable", "isEmpty"]
@@ -690,6 +709,7 @@ depends-member:
 - !private ["C11MovieViewer19MovieViewController", "dispatch_get_main_queue"]
 - !private ["C11MovieViewer19MovieViewController", "dispatch_time"]
 - ["C11MovieViewer19MovieViewController", "filteredData"]
+- ["C11MovieViewer19MovieViewController", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["C11MovieViewer19MovieViewController", "init"]
 - ["C11MovieViewer19MovieViewController", "movies"]
 - ["C11MovieViewer19MovieViewController", "myActivityIndicator"]
@@ -765,7 +785,9 @@ depends-member:
 - !private ["PSo8NSCoding", "UIRefreshControl"]
 - !private ["PSo8NSCoding", "addSubview"]
 - !private ["PSo8NSCoding", "addTarget"]
+- !private ["PSo8NSCoding", "alpha"]
 - !private ["PSo8NSCoding", "blackColor"]
+- !private ["PSo8NSCoding", "cellForItemAtIndexPath"]
 - !private ["PSo8NSCoding", "center"]
 - ["PSo8NSCoding", "collectionView"]
 - !private ["PSo8NSCoding", "color"]
@@ -781,6 +803,7 @@ depends-member:
 - ["PSo8NSCoding", "filteredData"]
 - !private ["PSo8NSCoding", "hidden"]
 - !private ["PSo8NSCoding", "indexPathForCell"]
+- ["PSo8NSCoding", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo8NSCoding", "init"]
 - !private ["PSo8NSCoding", "insertSubview"]
 - !private ["PSo8NSCoding", "isEmpty"]
@@ -865,6 +888,7 @@ depends-member:
 - !private ["PSo26NSExtensionRequestHandling", "dispatch_get_main_queue"]
 - !private ["PSo26NSExtensionRequestHandling", "dispatch_time"]
 - ["PSo26NSExtensionRequestHandling", "filteredData"]
+- ["PSo26NSExtensionRequestHandling", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo26NSExtensionRequestHandling", "init"]
 - ["PSo26NSExtensionRequestHandling", "movies"]
 - ["PSo26NSExtensionRequestHandling", "myActivityIndicator"]
@@ -945,7 +969,9 @@ depends-member:
 - ["CSo8NSObject", "UIView"]
 - !private ["CSo8NSObject", "addSubview"]
 - !private ["CSo8NSObject", "addTarget"]
+- !private ["CSo8NSObject", "alpha"]
 - !private ["CSo8NSObject", "blackColor"]
+- !private ["CSo8NSObject", "cellForItemAtIndexPath"]
 - !private ["CSo8NSObject", "center"]
 - ["CSo8NSObject", "collectionView"]
 - !private ["CSo8NSObject", "color"]
@@ -964,6 +990,7 @@ depends-member:
 - ["CSo8NSObject", "filteredData"]
 - !private ["CSo8NSObject", "hidden"]
 - !private ["CSo8NSObject", "indexPathForCell"]
+- ["CSo8NSObject", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["CSo8NSObject", "init"]
 - !private ["CSo8NSObject", "insertSubview"]
 - !private ["CSo8NSObject", "isEmpty"]
@@ -1035,7 +1062,9 @@ depends-member:
 - !private ["PSo16NSObjectProtocol", "UIRefreshControl"]
 - !private ["PSo16NSObjectProtocol", "addSubview"]
 - !private ["PSo16NSObjectProtocol", "addTarget"]
+- !private ["PSo16NSObjectProtocol", "alpha"]
 - !private ["PSo16NSObjectProtocol", "blackColor"]
+- !private ["PSo16NSObjectProtocol", "cellForItemAtIndexPath"]
 - !private ["PSo16NSObjectProtocol", "center"]
 - ["PSo16NSObjectProtocol", "collectionView"]
 - !private ["PSo16NSObjectProtocol", "color"]
@@ -1054,6 +1083,7 @@ depends-member:
 - ["PSo16NSObjectProtocol", "filteredData"]
 - !private ["PSo16NSObjectProtocol", "hidden"]
 - !private ["PSo16NSObjectProtocol", "indexPathForCell"]
+- ["PSo16NSObjectProtocol", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo16NSObjectProtocol", "init"]
 - !private ["PSo16NSObjectProtocol", "insertSubview"]
 - !private ["PSo16NSObjectProtocol", "isEmpty"]
@@ -1189,6 +1219,8 @@ depends-member:
 - !private ["PSs24StringLiteralConvertible", "rangeOfString"]
 - !private ["PSo29UIAccessibilityIdentification", "addSubview"]
 - !private ["PSo29UIAccessibilityIdentification", "addTarget"]
+- !private ["PSo29UIAccessibilityIdentification", "alpha"]
+- !private ["PSo29UIAccessibilityIdentification", "cellForItemAtIndexPath"]
 - !private ["PSo29UIAccessibilityIdentification", "center"]
 - !private ["PSo29UIAccessibilityIdentification", "color"]
 - !private ["PSo29UIAccessibilityIdentification", "dataSource"]
@@ -1215,6 +1247,8 @@ depends-member:
 - ["OSC28UIActivityIndicatorViewStyle", "WhiteLarge"]
 - !private ["PSo12UIAppearance", "addSubview"]
 - !private ["PSo12UIAppearance", "addTarget"]
+- !private ["PSo12UIAppearance", "alpha"]
+- !private ["PSo12UIAppearance", "cellForItemAtIndexPath"]
 - !private ["PSo12UIAppearance", "center"]
 - !private ["PSo12UIAppearance", "color"]
 - !private ["PSo12UIAppearance", "dataSource"]
@@ -1251,6 +1285,8 @@ depends-member:
 - !private ["PSo21UIAppearanceContainer", "UIRefreshControl"]
 - !private ["PSo21UIAppearanceContainer", "addSubview"]
 - !private ["PSo21UIAppearanceContainer", "addTarget"]
+- !private ["PSo21UIAppearanceContainer", "alpha"]
+- !private ["PSo21UIAppearanceContainer", "cellForItemAtIndexPath"]
 - !private ["PSo21UIAppearanceContainer", "center"]
 - ["PSo21UIAppearanceContainer", "collectionView"]
 - !private ["PSo21UIAppearanceContainer", "color"]
@@ -1266,6 +1302,7 @@ depends-member:
 - ["PSo21UIAppearanceContainer", "filteredData"]
 - !private ["PSo21UIAppearanceContainer", "hidden"]
 - !private ["PSo21UIAppearanceContainer", "indexPathForCell"]
+- ["PSo21UIAppearanceContainer", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo21UIAppearanceContainer", "init"]
 - !private ["PSo21UIAppearanceContainer", "insertSubview"]
 - ["PSo21UIAppearanceContainer", "movies"]
@@ -1336,6 +1373,7 @@ depends-member:
 - !private ["PSo24UIBarPositioningDelegate", "dispatch_get_main_queue"]
 - !private ["PSo24UIBarPositioningDelegate", "dispatch_time"]
 - !private ["PSo24UIBarPositioningDelegate", "filteredData"]
+- ["PSo24UIBarPositioningDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo24UIBarPositioningDelegate", "movies"]
 - !private ["PSo24UIBarPositioningDelegate", "myActivityIndicator"]
 - !private ["PSo24UIBarPositioningDelegate", "networkErrorView"]
@@ -1368,14 +1406,18 @@ depends-member:
 - !private ["PSo24UIBarPositioningDelegate", "view"]
 - ["PSo24UIBarPositioningDelegate", "viewForZoomingInScrollView"]
 - ["PSo24UIBarPositioningDelegate", ""]
+- !private ["CSo24UICollectionReusableView", "alpha"]
 - !private ["CSo24UICollectionReusableView", "overviewLabel"]
 - !private ["CSo24UICollectionReusableView", "posterView"]
 - !private ["CSo24UICollectionReusableView", "titleLabel"]
+- !private ["CSo16UICollectionView", "cellForItemAtIndexPath"]
 - !private ["CSo16UICollectionView", "dataSource"]
+- !private ["CSo16UICollectionView", "delegate"]
 - !private ["CSo16UICollectionView", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["CSo16UICollectionView", "indexPathForCell"]
 - !private ["CSo16UICollectionView", "insertSubview"]
 - !private ["CSo16UICollectionView", "reloadData"]
+- !private ["CSo20UICollectionViewCell", "alpha"]
 - !private ["CSo20UICollectionViewCell", "deinit"]
 - !private ["CSo20UICollectionViewCell", "overviewLabel"]
 - !private ["CSo20UICollectionViewCell", "posterView"]
@@ -1402,6 +1444,7 @@ depends-member:
 - !private ["PSo26UICollectionViewDataSource", "dispatch_get_main_queue"]
 - !private ["PSo26UICollectionViewDataSource", "dispatch_time"]
 - !private ["PSo26UICollectionViewDataSource", "filteredData"]
+- ["PSo26UICollectionViewDataSource", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo26UICollectionViewDataSource", "movies"]
 - !private ["PSo26UICollectionViewDataSource", "myActivityIndicator"]
 - !private ["PSo26UICollectionViewDataSource", "networkErrorView"]
@@ -1434,6 +1477,61 @@ depends-member:
 - !private ["PSo26UICollectionViewDataSource", "view"]
 - ["PSo26UICollectionViewDataSource", "viewForZoomingInScrollView"]
 - ["PSo26UICollectionViewDataSource", ""]
+- !private ["PSo24UICollectionViewDelegate", "DISPATCH_TIME_NOW"]
+- !private ["PSo24UICollectionViewDelegate", "Double"]
+- !private ["PSo24UICollectionViewDelegate", "Int64"]
+- !private ["PSo24UICollectionViewDelegate", "NSEC_PER_SEC"]
+- !private ["PSo24UICollectionViewDelegate", "NSJSONSerialization"]
+- !private ["PSo24UICollectionViewDelegate", "NSLog"]
+- !private ["PSo24UICollectionViewDelegate", "NSOperationQueue"]
+- !private ["PSo24UICollectionViewDelegate", "NSURL"]
+- !private ["PSo24UICollectionViewDelegate", "NSURLRequest"]
+- !private ["PSo24UICollectionViewDelegate", "NSURLSession"]
+- !private ["PSo24UICollectionViewDelegate", "NSURLSessionConfiguration"]
+- ["PSo24UICollectionViewDelegate", "UIActivityIndicatorView"]
+- ["PSo24UICollectionViewDelegate", "UIActivityIndicatorViewStyle"]
+- !private ["PSo24UICollectionViewDelegate", "UIColor"]
+- !private ["PSo24UICollectionViewDelegate", "UIControlEvents"]
+- !private ["PSo24UICollectionViewDelegate", "UIRefreshControl"]
+- ["PSo24UICollectionViewDelegate", "collectionView"]
+- !private ["PSo24UICollectionViewDelegate", "delay"]
+- !private ["PSo24UICollectionViewDelegate", "dispatch_after"]
+- !private ["PSo24UICollectionViewDelegate", "dispatch_get_main_queue"]
+- !private ["PSo24UICollectionViewDelegate", "dispatch_time"]
+- !private ["PSo24UICollectionViewDelegate", "filteredData"]
+- ["PSo24UICollectionViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
+- !private ["PSo24UICollectionViewDelegate", "movies"]
+- !private ["PSo24UICollectionViewDelegate", "myActivityIndicator"]
+- !private ["PSo24UICollectionViewDelegate", "networkErrorView"]
+- !private ["PSo24UICollectionViewDelegate", "networkRequest"]
+- ["PSo24UICollectionViewDelegate", "numberOfSectionsInCollectionView"]
+- ["PSo24UICollectionViewDelegate", "positionForBar"]
+- !private ["PSo24UICollectionViewDelegate", "print"]
+- !private ["PSo24UICollectionViewDelegate", "refreshControl"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndDecelerating"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndDragging"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndScrollingAnimation"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidEndZooming"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidScroll"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidScrollToTop"]
+- ["PSo24UICollectionViewDelegate", "scrollViewDidZoom"]
+- ["PSo24UICollectionViewDelegate", "scrollViewShouldScrollToTop"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillBeginDecelerating"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillBeginDragging"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillBeginZooming"]
+- ["PSo24UICollectionViewDelegate", "scrollViewWillEndDragging"]
+- ["PSo24UICollectionViewDelegate", "searchBar"]
+- ["PSo24UICollectionViewDelegate", "searchBarBookmarkButtonClicked"]
+- ["PSo24UICollectionViewDelegate", "searchBarCancelButtonClicked"]
+- ["PSo24UICollectionViewDelegate", "searchBarResultsListButtonClicked"]
+- ["PSo24UICollectionViewDelegate", "searchBarSearchButtonClicked"]
+- ["PSo24UICollectionViewDelegate", "searchBarShouldBeginEditing"]
+- ["PSo24UICollectionViewDelegate", "searchBarShouldEndEditing"]
+- ["PSo24UICollectionViewDelegate", "searchBarTextDidBeginEditing"]
+- ["PSo24UICollectionViewDelegate", "searchBarTextDidEndEditing"]
+- !private ["PSo24UICollectionViewDelegate", "view"]
+- ["PSo24UICollectionViewDelegate", "viewForZoomingInScrollView"]
+- ["PSo24UICollectionViewDelegate", ""]
 - !private ["CSo7UIColor", "blackColor"]
 - !private ["PSo18UIContentContainer", "DISPATCH_TIME_NOW"]
 - !private ["PSo18UIContentContainer", "Double"]
@@ -1458,6 +1556,7 @@ depends-member:
 - !private ["PSo18UIContentContainer", "dispatch_get_main_queue"]
 - !private ["PSo18UIContentContainer", "dispatch_time"]
 - ["PSo18UIContentContainer", "filteredData"]
+- ["PSo18UIContentContainer", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo18UIContentContainer", "init"]
 - ["PSo18UIContentContainer", "movies"]
 - ["PSo18UIContentContainer", "myActivityIndicator"]
@@ -1502,6 +1601,8 @@ depends-member:
 - !private ["VSC15UIControlEvents", "ValueChanged"]
 - !private ["PSo17UICoordinateSpace", "addSubview"]
 - !private ["PSo17UICoordinateSpace", "addTarget"]
+- !private ["PSo17UICoordinateSpace", "alpha"]
+- !private ["PSo17UICoordinateSpace", "cellForItemAtIndexPath"]
 - !private ["PSo17UICoordinateSpace", "center"]
 - !private ["PSo17UICoordinateSpace", "color"]
 - !private ["PSo17UICoordinateSpace", "dataSource"]
@@ -1522,6 +1623,8 @@ depends-member:
 - !private ["PSo17UICoordinateSpace", "titleLabel"]
 - !private ["PSo13UIDynamicItem", "addSubview"]
 - !private ["PSo13UIDynamicItem", "addTarget"]
+- !private ["PSo13UIDynamicItem", "alpha"]
+- !private ["PSo13UIDynamicItem", "cellForItemAtIndexPath"]
 - !private ["PSo13UIDynamicItem", "center"]
 - !private ["PSo13UIDynamicItem", "color"]
 - !private ["PSo13UIDynamicItem", "dataSource"]
@@ -1558,6 +1661,8 @@ depends-member:
 - !private ["PSo18UIFocusEnvironment", "UIRefreshControl"]
 - !private ["PSo18UIFocusEnvironment", "addSubview"]
 - !private ["PSo18UIFocusEnvironment", "addTarget"]
+- !private ["PSo18UIFocusEnvironment", "alpha"]
+- !private ["PSo18UIFocusEnvironment", "cellForItemAtIndexPath"]
 - !private ["PSo18UIFocusEnvironment", "center"]
 - ["PSo18UIFocusEnvironment", "collectionView"]
 - !private ["PSo18UIFocusEnvironment", "color"]
@@ -1573,6 +1678,7 @@ depends-member:
 - ["PSo18UIFocusEnvironment", "filteredData"]
 - !private ["PSo18UIFocusEnvironment", "hidden"]
 - !private ["PSo18UIFocusEnvironment", "indexPathForCell"]
+- ["PSo18UIFocusEnvironment", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo18UIFocusEnvironment", "init"]
 - !private ["PSo18UIFocusEnvironment", "insertSubview"]
 - ["PSo18UIFocusEnvironment", "movies"]
@@ -1658,6 +1764,8 @@ depends-member:
 - ["CSo11UIResponder", "UIView"]
 - !private ["CSo11UIResponder", "addSubview"]
 - !private ["CSo11UIResponder", "addTarget"]
+- !private ["CSo11UIResponder", "alpha"]
+- !private ["CSo11UIResponder", "cellForItemAtIndexPath"]
 - !private ["CSo11UIResponder", "center"]
 - ["CSo11UIResponder", "collectionView"]
 - !private ["CSo11UIResponder", "color"]
@@ -1673,6 +1781,7 @@ depends-member:
 - ["CSo11UIResponder", "filteredData"]
 - !private ["CSo11UIResponder", "hidden"]
 - !private ["CSo11UIResponder", "indexPathForCell"]
+- ["CSo11UIResponder", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["CSo11UIResponder", "init"]
 - !private ["CSo11UIResponder", "insertSubview"]
 - ["CSo11UIResponder", "movies"]
@@ -1719,7 +1828,9 @@ depends-member:
 - !private ["CSo11UIResponder", "view"]
 - ["CSo11UIResponder", "viewDidLoad"]
 - ["CSo11UIResponder", "viewForZoomingInScrollView"]
+- !private ["CSo12UIScrollView", "cellForItemAtIndexPath"]
 - !private ["CSo12UIScrollView", "dataSource"]
+- !private ["CSo12UIScrollView", "delegate"]
 - !private ["CSo12UIScrollView", "dequeueReusableCellWithReuseIdentifier"]
 - !private ["CSo12UIScrollView", "indexPathForCell"]
 - !private ["CSo12UIScrollView", "insertSubview"]
@@ -1746,6 +1857,7 @@ depends-member:
 - !private ["PSo20UIScrollViewDelegate", "dispatch_get_main_queue"]
 - !private ["PSo20UIScrollViewDelegate", "dispatch_time"]
 - !private ["PSo20UIScrollViewDelegate", "filteredData"]
+- ["PSo20UIScrollViewDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo20UIScrollViewDelegate", "movies"]
 - !private ["PSo20UIScrollViewDelegate", "myActivityIndicator"]
 - !private ["PSo20UIScrollViewDelegate", "networkErrorView"]
@@ -1801,6 +1913,7 @@ depends-member:
 - !private ["PSo19UISearchBarDelegate", "dispatch_get_main_queue"]
 - !private ["PSo19UISearchBarDelegate", "dispatch_time"]
 - !private ["PSo19UISearchBarDelegate", "filteredData"]
+- ["PSo19UISearchBarDelegate", "indexPathForPreferredFocusedViewInCollectionView"]
 - !private ["PSo19UISearchBarDelegate", "movies"]
 - !private ["PSo19UISearchBarDelegate", "myActivityIndicator"]
 - !private ["PSo19UISearchBarDelegate", "networkErrorView"]
@@ -1856,6 +1969,7 @@ depends-member:
 - !private ["PSo16UIStateRestoring", "dispatch_get_main_queue"]
 - !private ["PSo16UIStateRestoring", "dispatch_time"]
 - ["PSo16UIStateRestoring", "filteredData"]
+- ["PSo16UIStateRestoring", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo16UIStateRestoring", "init"]
 - ["PSo16UIStateRestoring", "movies"]
 - ["PSo16UIStateRestoring", "myActivityIndicator"]
@@ -1914,6 +2028,8 @@ depends-member:
 - !private ["PSo18UITraitEnvironment", "UIRefreshControl"]
 - !private ["PSo18UITraitEnvironment", "addSubview"]
 - !private ["PSo18UITraitEnvironment", "addTarget"]
+- !private ["PSo18UITraitEnvironment", "alpha"]
+- !private ["PSo18UITraitEnvironment", "cellForItemAtIndexPath"]
 - !private ["PSo18UITraitEnvironment", "center"]
 - ["PSo18UITraitEnvironment", "collectionView"]
 - !private ["PSo18UITraitEnvironment", "color"]
@@ -1929,6 +2045,7 @@ depends-member:
 - ["PSo18UITraitEnvironment", "filteredData"]
 - !private ["PSo18UITraitEnvironment", "hidden"]
 - !private ["PSo18UITraitEnvironment", "indexPathForCell"]
+- ["PSo18UITraitEnvironment", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["PSo18UITraitEnvironment", "init"]
 - !private ["PSo18UITraitEnvironment", "insertSubview"]
 - ["PSo18UITraitEnvironment", "movies"]
@@ -1978,6 +2095,8 @@ depends-member:
 - ["PSo18UITraitEnvironment", ""]
 - !private ["CSo6UIView", "addSubview"]
 - !private ["CSo6UIView", "addTarget"]
+- !private ["CSo6UIView", "alpha"]
+- !private ["CSo6UIView", "cellForItemAtIndexPath"]
 - !private ["CSo6UIView", "center"]
 - !private ["CSo6UIView", "color"]
 - !private ["CSo6UIView", "dataSource"]
@@ -2035,6 +2154,7 @@ depends-member:
 - !private ["CSo16UIViewController", "dispatch_get_main_queue"]
 - !private ["CSo16UIViewController", "dispatch_time"]
 - ["CSo16UIViewController", "filteredData"]
+- ["CSo16UIViewController", "indexPathForPreferredFocusedViewInCollectionView"]
 - ["CSo16UIViewController", "init"]
 - ["CSo16UIViewController", "movies"]
 - ["CSo16UIViewController", "myActivityIndicator"]
@@ -2156,6 +2276,8 @@ depends-member:
 - !private ["PSs12_Reflectable", "_getBuiltinLogicValue"]
 - !private ["PSs12_Reflectable", "addSubview"]
 - !private ["PSs12_Reflectable", "addTarget"]
+- !private ["PSs12_Reflectable", "alpha"]
+- !private ["PSs12_Reflectable", "cellForItemAtIndexPath"]
 - !private ["PSs12_Reflectable", "center"]
 - !private ["PSs12_Reflectable", "color"]
 - !private ["PSs12_Reflectable", "count"]
@@ -2196,6 +2318,7 @@ depends-nominal:
 - !private "Sb"
 - !private "PSs25BooleanLiteralConvertible"
 - !private "PSs11BooleanType"
+- !private "V12CoreGraphics7CGFloat"
 - "PSs11CVarArgType"
 - !private "VSs9Character"
 - !private "PSs14CollectionType"
@@ -2280,6 +2403,7 @@ depends-nominal:
 - !private "CSo16UICollectionView"
 - !private "CSo20UICollectionViewCell"
 - "PSo26UICollectionViewDataSource"
+- "PSo24UICollectionViewDelegate"
 - !private "CSo7UIColor"
 - "PSo18UIContentContainer"
 - !private "CSo9UIControl"
@@ -2361,4 +2485,4 @@ depends-external:
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
-interface-hash: "5e8ab7d59dad809802994a8f834cdda8"
+interface-hash: "126cbff233ba60ff4d207d4854b894b5"

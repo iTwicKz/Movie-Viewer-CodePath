@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ItZfyRf/zIpF89/R616EvnVPjFE=
+			1t+fXk+bIkAoLDAjLyfgQ1yVfmA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -53,7 +53,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U6d2fJhoxuE8LevDFNvky0h67l4=
+			lx1bM4xUBBlVO0IpNzj/z8pPMMs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +62,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			veijj5AMAjlF1n2OF59iGQOA/iU=
+			hGsl/2jT4CdDHbmqnOLATfAHOZ4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,7 +71,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yAzZWG04xuAwIxhoM51gIL0AIVY=
+			HWJ4AZT10Shm+KafBg4wSgJ8FKg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -80,14 +80,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WQFWGqu+VhQ+Psbukb5gZEaFDg0=
+			idY6+L78gzLr3ZUaSYWQlO5+qJc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		S0c4aqQiH+zYaXwUaWnVuJhm7Ho=
+		1el3iuHaE6IlkIA8/4+zHvTGgFI=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -179,7 +179,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			ItZfyRf/zIpF89/R616EvnVPjFE=
+			1t+fXk+bIkAoLDAjLyfgQ1yVfmA=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -197,7 +197,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			U6d2fJhoxuE8LevDFNvky0h67l4=
+			lx1bM4xUBBlVO0IpNzj/z8pPMMs=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -206,7 +206,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			veijj5AMAjlF1n2OF59iGQOA/iU=
+			hGsl/2jT4CdDHbmqnOLATfAHOZ4=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -215,7 +215,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			yAzZWG04xuAwIxhoM51gIL0AIVY=
+			HWJ4AZT10Shm+KafBg4wSgJ8FKg=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -224,14 +224,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			WQFWGqu+VhQ+Psbukb5gZEaFDg0=
+			idY6+L78gzLr3ZUaSYWQlO5+qJc=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		S0c4aqQiH+zYaXwUaWnVuJhm7Ho=
+		1el3iuHaE6IlkIA8/4+zHvTGgFI=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>

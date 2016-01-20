@@ -9,7 +9,7 @@
 import UIKit
 import AFNetworking
 
-class MovieViewController: UIViewController, UICollectionViewDataSource, UISearchBarDelegate, UIScrollViewDelegate {
+class MovieViewController: UIViewController, UICollectionViewDataSource, UICollectionViewDelegate, UISearchBarDelegate, UIScrollViewDelegate {
 
     @IBOutlet weak var tableView: UITableView!
     
@@ -35,6 +35,7 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
         self.networkErrorView.hidden = true
         
         collectionView.dataSource = self
+        collectionView.delegate = self
         searchBar.delegate = self
         
         myActivityIndicator.color = UIColor.blackColor()
@@ -145,7 +146,16 @@ class MovieViewController: UIViewController, UICollectionViewDataSource, UISearc
         return cell
     
     }
-
+    
+    func collectionView(collectionView: UICollectionView, didHighlightItemAtIndexPath indexPath: NSIndexPath){
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        cell?.alpha = 0.5
+    }
+    func collectionView(collectionView: UICollectionView, didUnhighlightItemAtIndexPath indexPath: NSIndexPath){
+        let cell = collectionView.cellForItemAtIndexPath(indexPath)
+        cell?.alpha = 1.0
+    }
+    
     func collectionView(collectionView: UICollectionView, numberOfItemsInSection section: Int) -> Int {
         if let filteredData = filteredData {
             return filteredData.count
