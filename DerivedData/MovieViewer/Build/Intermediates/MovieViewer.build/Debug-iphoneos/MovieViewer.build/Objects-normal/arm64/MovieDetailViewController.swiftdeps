@@ -7,19 +7,19 @@ provides-member:
 - ["C11MovieViewer25MovieDetailViewController", ""]
 provides-dynamic-lookup:
 - "passedMovie"
-- "viewDidLoad"
-- "didReceiveMemoryWarning"
 - "detailImageView"
+- "didReceiveMemoryWarning"
+- "viewDidLoad"
 depends-top-level:
-- !private "NSURL"
-- "UIImageView"
-- "NSDictionary"
-- !private "String"
-- !private "+"
-- !private "StringLiteralType"
 - !private "print"
-- "UIViewController"
+- !private "NSURL"
+- !private "StringLiteralType"
 - "MovieDetailViewController"
+- "UIImageView"
+- !private "+"
+- !private "String"
+- "NSDictionary"
+- "UIViewController"
 depends-member:
 - !private ["PSs9AnyObject", "NSURL"]
 - ["PSs9AnyObject", "detailImageView"]

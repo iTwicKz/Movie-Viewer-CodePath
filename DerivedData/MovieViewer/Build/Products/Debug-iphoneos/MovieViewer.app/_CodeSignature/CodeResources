@@ -35,7 +35,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YnGc05UR4IoyOPEa26iCfgQkxA4=
+			ItZfyRf/zIpF89/R616EvnVPjFE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -44,16 +44,25 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kRGIHU5C/7BnmC7Pra+hfVC/4Po=
+			RrqEIOlMRW+2KVllbV+4gKaN7EM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-2bV-DK-c1o.nib</key>
+		<key>Base.lproj/Main.storyboardc/Lgs-6q-Me6-view-c7W-AB-56z.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F+4UreNhsmiEKt9ks/g43foD2Ko=
+			U6d2fJhoxuE8LevDFNvky0h67l4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-sU0-Pl-mVb.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			veijj5AMAjlF1n2OF59iGQOA/iU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -62,7 +71,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PbB6rmyhBj+tvxKYpdXYAfZA3Ow=
+			yAzZWG04xuAwIxhoM51gIL0AIVY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -71,14 +80,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wgfBd/dJW+G85Ku3PIaoDtf+cOE=
+			WQFWGqu+VhQ+Psbukb5gZEaFDg0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		4IpBcJDUF/fZ+0flmrtrnWkuPUw=
+		S0c4aqQiH+zYaXwUaWnVuJhm7Ho=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
@@ -170,7 +179,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			YnGc05UR4IoyOPEa26iCfgQkxA4=
+			ItZfyRf/zIpF89/R616EvnVPjFE=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -179,16 +188,25 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			kRGIHU5C/7BnmC7Pra+hfVC/4Po=
+			RrqEIOlMRW+2KVllbV+4gKaN7EM=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
-		<key>Base.lproj/Main.storyboardc/UINavigationController-2bV-DK-c1o.nib</key>
+		<key>Base.lproj/Main.storyboardc/Lgs-6q-Me6-view-c7W-AB-56z.nib</key>
 		<dict>
 			<key>hash</key>
 			<data>
-			F+4UreNhsmiEKt9ks/g43foD2Ko=
+			U6d2fJhoxuE8LevDFNvky0h67l4=
+			</data>
+			<key>optional</key>
+			<true/>
+		</dict>
+		<key>Base.lproj/Main.storyboardc/UITabBarController-sU0-Pl-mVb.nib</key>
+		<dict>
+			<key>hash</key>
+			<data>
+			veijj5AMAjlF1n2OF59iGQOA/iU=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -197,7 +215,7 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			PbB6rmyhBj+tvxKYpdXYAfZA3Ow=
+			yAzZWG04xuAwIxhoM51gIL0AIVY=
 			</data>
 			<key>optional</key>
 			<true/>
@@ -206,14 +224,14 @@
 		<dict>
 			<key>hash</key>
 			<data>
-			wgfBd/dJW+G85Ku3PIaoDtf+cOE=
+			WQFWGqu+VhQ+Psbukb5gZEaFDg0=
 			</data>
 			<key>optional</key>
 			<true/>
 		</dict>
 		<key>Frameworks/AFNetworking.framework/AFNetworking</key>
 		<data>
-		4IpBcJDUF/fZ+0flmrtrnWkuPUw=
+		S0c4aqQiH+zYaXwUaWnVuJhm7Ho=
 		</data>
 		<key>Frameworks/AFNetworking.framework/Info.plist</key>
 		<data>
