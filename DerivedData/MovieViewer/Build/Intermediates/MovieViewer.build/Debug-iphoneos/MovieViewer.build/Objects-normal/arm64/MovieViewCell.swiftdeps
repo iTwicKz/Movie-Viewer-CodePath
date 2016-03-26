@@ -6,14 +6,14 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer13MovieViewCell", ""]
 provides-dynamic-lookup:
+- "posterView"
 - "titleLabel"
 - "overviewLabel"
-- "posterView"
 depends-top-level:
-- "MovieViewCell"
-- "UILabel"
 - "UIImageView"
+- "UILabel"
 - "UICollectionViewCell"
+- "MovieViewCell"
 depends-member:
 - ["PSs9AnyObject", "init"]
 - ["PSs9AnyObject", "overviewLabel"]

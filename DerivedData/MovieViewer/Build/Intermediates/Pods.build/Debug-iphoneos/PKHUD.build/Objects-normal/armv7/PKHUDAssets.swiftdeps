@@ -1,0 +1,146 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PKHUDAssets"
+provides-nominal:
+- "C5PKHUD11PKHUDAssets"
+provides-member:
+- ["C5PKHUD11PKHUDAssets", ""]
+provides-dynamic-lookup:
+- "crossImage"
+- "progressActivityImage"
+- "checkmarkImage"
+- "bundledImage"
+- "progressCircularImage"
+depends-top-level:
+- "String"
+- !private "StringLiteralType"
+- "NSObject"
+- !private "NSBundle"
+- "PKHUDAssets"
+- "UIImage"
+depends-member:
+- !private ["PSs9AnyObject", "NSBundle"]
+- !private ["PSs9AnyObject", "PKHUDAssets"]
+- !private ["PSs9AnyObject", "UIImage"]
+- ["PSs9AnyObject", "bundledImage"]
+- ["PSs9AnyObject", "checkmarkImage"]
+- ["PSs9AnyObject", "crossImage"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", "progressActivityImage"]
+- ["PSs9AnyObject", "progressCircularImage"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "NSBundle"]
+- !private ["PSs11CVarArgType", "PKHUDAssets"]
+- !private ["PSs11CVarArgType", "UIImage"]
+- ["PSs11CVarArgType", "bundledImage"]
+- ["PSs11CVarArgType", "checkmarkImage"]
+- ["PSs11CVarArgType", "crossImage"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", "progressActivityImage"]
+- ["PSs11CVarArgType", "progressCircularImage"]
+- ["PSs11CVarArgType", ""]
+- ["PSs28CustomDebugStringConvertible", "Some"]
+- !private ["PSs23CustomStringConvertible", "NSBundle"]
+- !private ["PSs23CustomStringConvertible", "PKHUDAssets"]
+- !private ["PSs23CustomStringConvertible", "UIImage"]
+- ["PSs23CustomStringConvertible", "bundledImage"]
+- ["PSs23CustomStringConvertible", "checkmarkImage"]
+- ["PSs23CustomStringConvertible", "crossImage"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", "progressActivityImage"]
+- ["PSs23CustomStringConvertible", "progressCircularImage"]
+- ["PSs23CustomStringConvertible", ""]
+- !private ["PSs9Equatable", "NSBundle"]
+- !private ["PSs9Equatable", "PKHUDAssets"]
+- !private ["PSs9Equatable", "UIImage"]
+- ["PSs9Equatable", "bundledImage"]
+- ["PSs9Equatable", "checkmarkImage"]
+- ["PSs9Equatable", "crossImage"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", "progressActivityImage"]
+- ["PSs9Equatable", "progressCircularImage"]
+- ["PSs9Equatable", ""]
+- !private ["PSs8Hashable", "NSBundle"]
+- !private ["PSs8Hashable", "PKHUDAssets"]
+- !private ["PSs8Hashable", "UIImage"]
+- ["PSs8Hashable", "bundledImage"]
+- ["PSs8Hashable", "checkmarkImage"]
+- ["PSs8Hashable", "crossImage"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", "progressActivityImage"]
+- ["PSs8Hashable", "progressCircularImage"]
+- ["PSs8Hashable", ""]
+- !private ["CSo8NSBundle", "init"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["CSo8NSObject", "NSBundle"]
+- !private ["CSo8NSObject", "PKHUDAssets"]
+- ["CSo8NSObject", "String"]
+- ["CSo8NSObject", "UIImage"]
+- ["CSo8NSObject", "bundledImage"]
+- ["CSo8NSObject", "checkmarkImage"]
+- ["CSo8NSObject", "crossImage"]
+- ["CSo8NSObject", "init"]
+- ["CSo8NSObject", "progressActivityImage"]
+- ["CSo8NSObject", "progressCircularImage"]
+- ["CSo8NSObject", ""]
+- !private ["PSo16NSObjectProtocol", "NSBundle"]
+- !private ["PSo16NSObjectProtocol", "PKHUDAssets"]
+- !private ["PSo16NSObjectProtocol", "UIImage"]
+- ["PSo16NSObjectProtocol", "bundledImage"]
+- ["PSo16NSObjectProtocol", "checkmarkImage"]
+- ["PSo16NSObjectProtocol", "crossImage"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", "progressActivityImage"]
+- ["PSo16NSObjectProtocol", "progressCircularImage"]
+- ["PSo16NSObjectProtocol", ""]
+- !private ["PSo14NSSecureCoding", "init"]
+- ["PSs21NilLiteralConvertible", "Some"]
+- ["Sq", "Some"]
+- !private ["C5PKHUD11PKHUDAssets", "NSBundle"]
+- !private ["C5PKHUD11PKHUDAssets", "PKHUDAssets"]
+- ["C5PKHUD11PKHUDAssets", "String"]
+- ["C5PKHUD11PKHUDAssets", "UIImage"]
+- ["C5PKHUD11PKHUDAssets", "bundledImage"]
+- ["C5PKHUD11PKHUDAssets", "checkmarkImage"]
+- ["C5PKHUD11PKHUDAssets", "crossImage"]
+- ["C5PKHUD11PKHUDAssets", "deinit"]
+- ["C5PKHUD11PKHUDAssets", "init"]
+- ["C5PKHUD11PKHUDAssets", "progressActivityImage"]
+- ["C5PKHUD11PKHUDAssets", "progressCircularImage"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["CSo7UIImage", "init"]
+- !private ["PSs24_ImageLiteralConvertible", "init"]
+- ["PSs12_Reflectable", "Some"]
+depends-nominal:
+- "PSs9AnyObject"
+- "PSs11CVarArgType"
+- "PSs28CustomDebugStringConvertible"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- !private "CSo8NSBundle"
+- !private "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- !private "PSo14NSSecureCoding"
+- "PSs21NilLiteralConvertible"
+- "Sq"
+- "C5PKHUD11PKHUDAssets"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "CSo7UIImage"
+- !private "PSs24_ImageLiteralConvertible"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Intermediates/Pods.build/Debug-iphoneos/PKHUD.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "02c0fae4877f09643389bd6a47972ac6"

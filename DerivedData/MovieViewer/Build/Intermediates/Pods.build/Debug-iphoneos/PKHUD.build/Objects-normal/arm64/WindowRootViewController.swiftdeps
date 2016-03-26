@@ -8,18 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 - "supportedInterfaceOrientations"
 - "preferredStatusBarStyle"
+- "shouldAutorotate"
 - "prefersStatusBarHidden"
 - "preferredStatusBarUpdateAnimation"
-- "shouldAutorotate"
 depends-top-level:
 - !private "BooleanLiteralType"
 - "UIViewController"
 - "WindowRootViewController"
-- !private "UIApplication"
-- "Bool"
 - "UIStatusBarStyle"
 - "UIInterfaceOrientationMask"
+- !private "UIApplication"
 - "UIStatusBarAnimation"
+- "Bool"
 depends-member:
 - !private ["PSs9AnyObject", "UIApplication"]
 - !private ["PSs9AnyObject", "UIInterfaceOrientationMask"]

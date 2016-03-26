@@ -6,27 +6,27 @@ provides-nominal:
 provides-member:
 - ["C5PKHUD6Window", ""]
 provides-dynamic-lookup:
-- "frameView"
-- "showBackground"
-- "hideBackground"
 - "layoutSubviews"
+- "hideBackground"
+- "showBackground"
+- "frameView"
 - "hideFrameView"
 - "showFrameView"
 depends-top-level:
-- !private "UIWindowLevelNormal"
-- "FrameView"
-- !private "StringLiteralType"
-- "Bool"
-- !private "+"
-- "UIColor"
-- !private "UIApplication"
 - "UIWindow"
-- "Void"
-- "BooleanLiteralType"
-- "NSCoder"
 - "Window"
-- "UIView"
 - !private "WindowRootViewController"
+- "UIView"
+- !private "StringLiteralType"
+- "UIColor"
+- "Void"
+- !private "+"
+- "NSCoder"
+- !private "UIApplication"
+- "FrameView"
+- "BooleanLiteralType"
+- !private "UIWindowLevelNormal"
+- "Bool"
 depends-member:
 - !private ["PSs9AnyObject", "FrameView"]
 - !private ["PSs9AnyObject", "UIApplication"]

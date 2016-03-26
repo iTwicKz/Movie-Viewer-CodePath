@@ -6,19 +6,19 @@ provides-nominal:
 provides-member:
 - ["C5PKHUD32PKHUDSystemActivityIndicatorView", ""]
 provides-dynamic-lookup:
-- "activityIndicatorView"
 - "layoutSubviews"
 - "startAnimation"
+- "activityIndicatorView"
 - "commonInit"
 depends-top-level:
-- "NSCoder"
 - "UIActivityIndicatorView"
-- "CGRect"
 - "PKHUDSystemActivityIndicatorView"
-- "PKHUDSquareBaseView"
-- "PKHUDAnimating"
-- "UIColor"
+- "NSCoder"
+- "CGRect"
 - !private "StringLiteralType"
+- "PKHUDAnimating"
+- "PKHUDSquareBaseView"
+- "UIColor"
 depends-member:
 - !private ["PSs9AnyObject", "PKHUDSquareBaseView"]
 - ["PSs9AnyObject", "UIActivityIndicatorView"]

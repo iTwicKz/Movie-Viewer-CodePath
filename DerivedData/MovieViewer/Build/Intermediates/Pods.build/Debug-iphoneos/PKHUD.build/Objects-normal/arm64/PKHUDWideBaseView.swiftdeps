@@ -8,12 +8,12 @@ provides-member:
 provides-dynamic-lookup:
 - "defaultWideBaseViewFrame"
 depends-top-level:
+- "CGSize"
+- "CGPointZero"
+- "CGRect"
+- "NSCoder"
 - "UIView"
 - "PKHUDWideBaseView"
-- "NSCoder"
-- "CGRect"
-- "CGPointZero"
-- "CGSize"
 depends-member:
 - ["PSs9AnyObject", "CGPointZero"]
 - ["PSs9AnyObject", "CGRect"]

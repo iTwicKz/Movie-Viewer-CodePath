@@ -9,9 +9,9 @@ provides-dynamic-lookup:
 - "stopAnimation"
 - "startAnimation"
 depends-top-level:
-- "PKHUDAnimating"
-- "PKHUDSquareBaseView"
 - !private "PKHUDAnimation"
+- "PKHUDSquareBaseView"
+- "PKHUDAnimating"
 - !private "StringLiteralType"
 - "PKHUDRotatingImageView"
 depends-member:

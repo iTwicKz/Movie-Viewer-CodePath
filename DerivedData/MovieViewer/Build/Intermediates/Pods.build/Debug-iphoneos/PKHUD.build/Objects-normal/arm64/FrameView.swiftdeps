@@ -8,18 +8,18 @@ provides-member:
 provides-dynamic-lookup:
 - "content"
 depends-top-level:
-- !private "UIColor"
 - "FrameView"
-- !private "-"
 - !private "StringLiteralType"
-- !private "UIMotionEffectGroup"
-- "UIVisualEffectView"
 - !private "Array"
-- !private "UIInterpolatingMotionEffect"
-- !private "BooleanLiteralType"
+- !private "-"
 - "UIView"
-- !private "UIBlurEffect"
 - "NSCoder"
+- !private "UIInterpolatingMotionEffect"
+- "UIVisualEffectView"
+- !private "UIColor"
+- !private "UIBlurEffect"
+- !private "BooleanLiteralType"
+- !private "UIMotionEffectGroup"
 depends-member:
 - !private ["PSs9AnyObject", "UIBlurEffect"]
 - !private ["PSs9AnyObject", "UIColor"]

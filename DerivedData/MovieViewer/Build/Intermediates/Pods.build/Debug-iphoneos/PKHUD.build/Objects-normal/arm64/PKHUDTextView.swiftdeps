@@ -6,21 +6,21 @@ provides-nominal:
 provides-member:
 - ["C5PKHUD13PKHUDTextView", ""]
 provides-dynamic-lookup:
+- "layoutSubviews"
 - "titleLabel"
 - "commonInit"
-- "layoutSubviews"
 depends-top-level:
-- "String"
-- "BooleanLiteralType"
-- "UILabel"
+- "PKHUDTextView"
 - "UIFont"
+- "BooleanLiteralType"
+- !private "CGFloat"
 - !private "CGRectInset"
 - "PKHUDWideBaseView"
-- !private "CGFloat"
-- "NSCoder"
-- "PKHUDTextView"
 - !private "StringLiteralType"
+- "String"
+- "UILabel"
 - "UIColor"
+- "NSCoder"
 depends-member:
 - !private ["PSs9AnyObject", "CGRectInset"]
 - ["PSs9AnyObject", "UIColor"]

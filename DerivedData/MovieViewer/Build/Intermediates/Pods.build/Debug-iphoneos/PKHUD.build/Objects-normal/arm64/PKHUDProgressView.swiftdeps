@@ -9,14 +9,14 @@ provides-dynamic-lookup:
 - "stopAnimation"
 - "startAnimation"
 depends-top-level:
-- "NSCoder"
-- "String"
 - "PKHUDSquareBaseView"
-- !private "StringLiteralType"
-- !private "PKHUDAssets"
-- !private "PKHUDAnimation"
-- "PKHUDProgressView"
 - "PKHUDAnimating"
+- "PKHUDProgressView"
+- !private "PKHUDAnimation"
+- "NSCoder"
+- !private "PKHUDAssets"
+- !private "StringLiteralType"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "PKHUDAnimation"]
 - !private ["PSs9AnyObject", "PKHUDAssets"]

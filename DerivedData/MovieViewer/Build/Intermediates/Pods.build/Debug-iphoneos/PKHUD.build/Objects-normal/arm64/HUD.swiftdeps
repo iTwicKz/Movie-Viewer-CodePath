@@ -10,22 +10,22 @@ provides-member:
 - ["C5PKHUD3HUD", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- !private "PKHUDTextView"
-- !private "PKHUDSuccessView"
-- !private "PKHUDProgressView"
-- "NSTimeInterval"
 - "String"
 - "UIImage"
-- "Void"
 - "HUD"
-- !private "UIView"
 - !private "PKHUDSquareBaseView"
-- !private "PKHUDErrorView"
 - !private "PKHUDSystemActivityIndicatorView"
+- !private "PKHUDSuccessView"
+- !private "PKHUDProgressView"
 - "HUDContentType"
 - !private "PKHUDRotatingImageView"
+- "Void"
+- "NSTimeInterval"
 - "Bool"
 - !private "PKHUD"
+- !private "PKHUDErrorView"
+- !private "PKHUDTextView"
+- !private "UIView"
 depends-member:
 - !private ["PSs9AnyObject", "HUD"]
 - !private ["PSs9AnyObject", "PKHUD"]

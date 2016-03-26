@@ -7,17 +7,17 @@ provides-member:
 - ["C5PKHUD14PKHUDAnimation", ""]
 provides-dynamic-lookup:
 depends-top-level:
-- "NSNumber"
-- "PKHUDAnimation"
-- "/"
-- "Array"
-- "CAKeyframeAnimation"
 - "M_PI"
-- "CABasicAnimation"
 - "StringLiteralType"
 - "*"
-- "Float"
 - "CAAnimation"
+- "CAKeyframeAnimation"
+- "Float"
+- "/"
+- "Array"
+- "PKHUDAnimation"
+- "NSNumber"
+- "CABasicAnimation"
 - "INT_MAX"
 depends-member:
 - ["PSs16AbsoluteValuable", "init"]

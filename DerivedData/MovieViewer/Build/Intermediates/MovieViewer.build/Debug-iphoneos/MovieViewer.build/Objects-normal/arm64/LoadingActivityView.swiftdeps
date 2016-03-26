@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer19LoadingActivityView", ""]
 provides-dynamic-lookup:
-- "defaultHeight"
-- "startAnimating"
 - "stopAnimating"
+- "startAnimating"
 - "layoutSubviews"
-- "activityIndicatorView"
+- "defaultHeight"
 - "setupActivityIndicator"
+- "activityIndicatorView"
 depends-top-level:
-- "CGFloat"
-- "UIView"
-- !private "CGPointMake"
 - "NSCoder"
-- "CGRect"
 - !private "/"
-- !private "BooleanLiteralType"
 - "UIActivityIndicatorView"
+- "UIView"
+- "CGFloat"
+- !private "CGPointMake"
 - "LoadingActivityView"
+- "CGRect"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "CGPointMake"]
 - ["PSs9AnyObject", "UIActivityIndicatorView"]

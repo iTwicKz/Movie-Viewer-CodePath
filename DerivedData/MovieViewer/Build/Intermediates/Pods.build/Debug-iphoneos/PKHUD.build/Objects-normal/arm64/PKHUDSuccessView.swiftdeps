@@ -6,26 +6,26 @@ provides-nominal:
 provides-member:
 - ["C5PKHUD16PKHUDSuccessView", ""]
 provides-dynamic-lookup:
-- "stopAnimation"
 - "checkmarkShapeLayer"
+- "stopAnimation"
 - "startAnimation"
 depends-top-level:
-- "PKHUDAnimating"
-- "PKHUDSuccessView"
-- "kCALineCapRound"
-- "String"
-- "UIBezierPath"
-- !private "Array"
-- "NSCoder"
-- "PKHUDSquareBaseView"
-- "CGPointMake"
-- !private "CAKeyframeAnimation"
-- !private "StringLiteralType"
-- "kCAFillModeForwards"
-- "CAShapeLayer"
-- "CGRectMake"
-- "kCALineJoinRound"
 - "UIColor"
+- "CGPointMake"
+- "PKHUDAnimating"
+- !private "CAKeyframeAnimation"
+- "PKHUDSquareBaseView"
+- "PKHUDSuccessView"
+- "kCALineJoinRound"
+- "CGRectMake"
+- "CAShapeLayer"
+- "kCALineCapRound"
+- "kCAFillModeForwards"
+- "NSCoder"
+- "UIBezierPath"
+- !private "StringLiteralType"
+- !private "Array"
+- "String"
 depends-member:
 - !private ["PSs9AnyObject", "CAKeyframeAnimation"]
 - ["PSs9AnyObject", "CAShapeLayer"]

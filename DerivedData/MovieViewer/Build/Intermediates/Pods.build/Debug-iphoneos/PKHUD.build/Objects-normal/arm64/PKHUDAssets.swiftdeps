@@ -6,18 +6,18 @@ provides-nominal:
 provides-member:
 - ["C5PKHUD11PKHUDAssets", ""]
 provides-dynamic-lookup:
-- "bundledImage"
-- "progressActivityImage"
-- "checkmarkImage"
 - "progressCircularImage"
+- "bundledImage"
 - "crossImage"
+- "checkmarkImage"
+- "progressActivityImage"
 depends-top-level:
-- !private "NSBundle"
 - "PKHUDAssets"
-- "UIImage"
 - "String"
 - !private "StringLiteralType"
 - "NSObject"
+- !private "NSBundle"
+- "UIImage"
 depends-member:
 - !private ["PSs9AnyObject", "NSBundle"]
 - !private ["PSs9AnyObject", "PKHUDAssets"]
