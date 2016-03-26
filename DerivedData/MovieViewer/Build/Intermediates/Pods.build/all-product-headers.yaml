@@ -121,6 +121,38 @@
     },
     {
       'type': 'directory',
+      'name': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/PKHUD.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "PKHUD-Swift.h",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/PKHUD.framework/Headers/PKHUD-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "PKHUD-umbrella.h",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+        },
+        {
+          'type': 'file',
+          'name': "PKHUD.h",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/PKHUD/PKHUD/PKHUD.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/PKHUD.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Intermediates/Pods.build/Debug-iphoneos/PKHUD.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
       'name': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/Pods_MovieViewer.framework/Headers",
       'contents': [
         {
@@ -143,6 +175,33 @@
           'type': 'file',
           'name': "module.modulemap",
           'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Intermediates/Pods.build/Debug-iphoneos/Pods-MovieViewer.build/module.modulemap"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "YouTubePlayer-Swift.h",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-Swift.h"
+        },
+        {
+          'type': 'file',
+          'name': "YouTubePlayer-umbrella.h",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/Target Support Files/YouTubePlayer/YouTubePlayer-umbrella.h"
+        }
+      ]
+    },
+    {
+      'type': 'directory',
+      'name': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules",
+      'contents': [
+        {
+          'type': 'file',
+          'name': "module.modulemap",
+          'external-contents': "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Intermediates/Pods.build/Debug-iphoneos/YouTubePlayer.build/module.modulemap"
         }
       ]
     }

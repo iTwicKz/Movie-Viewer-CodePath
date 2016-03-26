@@ -6,23 +6,23 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer11AppDelegate", ""]
 provides-dynamic-lookup:
-- "applicationWillResignActive"
-- "applicationDidBecomeActive"
-- "applicationWillTerminate"
-- "window"
 - "application"
 - "applicationWillEnterForeground"
 - "applicationDidEnterBackground"
+- "applicationWillTerminate"
+- "applicationWillResignActive"
+- "applicationDidBecomeActive"
+- "window"
 depends-top-level:
-- "UIResponder"
-- "NSObject"
-- "UIApplicationDelegate"
-- "Bool"
 - "UIWindow"
-- "UIApplication"
-- "AppDelegate"
 - !private "BooleanLiteralType"
+- "Bool"
+- "UIApplication"
 - "AnyObject"
+- "AppDelegate"
+- "NSObject"
+- "UIResponder"
+- "UIApplicationDelegate"
 depends-member:
 - ["PSs9AnyObject", "application"]
 - ["PSs9AnyObject", "applicationDidBecomeActive"]
@@ -228,4 +228,8 @@ depends-external:
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules/YouTubePlayer.swiftmodule/arm64.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-Swift.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules/module.modulemap"
 interface-hash: "eb6deb7e97b205db2b1f8c4c6c87743c"

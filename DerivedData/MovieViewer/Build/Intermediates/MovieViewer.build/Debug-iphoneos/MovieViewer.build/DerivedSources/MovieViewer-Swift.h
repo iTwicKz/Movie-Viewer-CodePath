@@ -138,13 +138,28 @@ SWIFT_CLASS("_TtC11MovieViewer9MovieCell")
 @end
 
 @class NSDictionary;
+@class UIScrollView;
+@class UIWebView;
+@class YouTubePlayerView;
 @class NSBundle;
 
 SWIFT_CLASS("_TtC11MovieViewer25MovieDetailViewController")
 @interface MovieDetailViewController : UIViewController
 @property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified detailImageView;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified titleYearLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified ratingsLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified overviewLabel;
+@property (nonatomic, weak) IBOutlet UIScrollView * __null_unspecified scrollView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified infoView;
+@property (nonatomic, weak) IBOutlet UIWebView * __null_unspecified trailerPreview;
+@property (nonatomic, weak) IBOutlet YouTubePlayerView * __null_unspecified videoPlayer;
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified posterView;
 @property (nonatomic, strong) NSDictionary * __null_unspecified passedMovie;
+@property (nonatomic, copy) NSString * __null_unspecified movieVideoID;
+@property (nonatomic, weak) IBOutlet UIScrollView * __null_unspecified scrollerView;
 - (void)viewDidLoad;
+- (void)networkRequest;
+- (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
 - (void)didReceiveMemoryWarning;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;

@@ -1,0 +1,202 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "HUDContentType"
+- "HUD"
+provides-nominal:
+- "O5PKHUD14HUDContentType"
+- "C5PKHUD3HUD"
+provides-member:
+- ["O5PKHUD14HUDContentType", ""]
+- ["C5PKHUD3HUD", ""]
+provides-dynamic-lookup:
+depends-top-level:
+- !private "PKHUDTextView"
+- !private "PKHUDSuccessView"
+- !private "PKHUDProgressView"
+- "NSTimeInterval"
+- "String"
+- "UIImage"
+- "Void"
+- "HUD"
+- !private "UIView"
+- !private "PKHUDSquareBaseView"
+- !private "PKHUDErrorView"
+- !private "PKHUDSystemActivityIndicatorView"
+- "HUDContentType"
+- !private "PKHUDRotatingImageView"
+- "Bool"
+- !private "PKHUD"
+depends-member:
+- !private ["PSs9AnyObject", "HUD"]
+- !private ["PSs9AnyObject", "PKHUD"]
+- !private ["PSs9AnyObject", "PKHUDErrorView"]
+- !private ["PSs9AnyObject", "PKHUDProgressView"]
+- !private ["PSs9AnyObject", "PKHUDRotatingImageView"]
+- !private ["PSs9AnyObject", "PKHUDSquareBaseView"]
+- !private ["PSs9AnyObject", "PKHUDSuccessView"]
+- !private ["PSs9AnyObject", "PKHUDSystemActivityIndicatorView"]
+- !private ["PSs9AnyObject", "PKHUDTextView"]
+- !private ["PSs9AnyObject", "contentView"]
+- !private ["PSs9AnyObject", "dimsBackground"]
+- !private ["PSs9AnyObject", "hide"]
+- !private ["PSs9AnyObject", "init"]
+- !private ["PSs9AnyObject", "isVisible"]
+- !private ["PSs9AnyObject", "sharedHUD"]
+- !private ["PSs9AnyObject", "show"]
+- !private ["PSs9AnyObject", "userInteractionOnUnderlyingViewsEnabled"]
+- ["PSs9AnyObject", ""]
+- !private ["PSs11CVarArgType", "contentView"]
+- !private ["PSs11CVarArgType", "dimsBackground"]
+- !private ["PSs11CVarArgType", "hide"]
+- !private ["PSs11CVarArgType", "init"]
+- !private ["PSs11CVarArgType", "isVisible"]
+- !private ["PSs11CVarArgType", "sharedHUD"]
+- !private ["PSs11CVarArgType", "show"]
+- !private ["PSs11CVarArgType", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["PSs23CustomStringConvertible", "contentView"]
+- !private ["PSs23CustomStringConvertible", "dimsBackground"]
+- !private ["PSs23CustomStringConvertible", "hide"]
+- !private ["PSs23CustomStringConvertible", "init"]
+- !private ["PSs23CustomStringConvertible", "isVisible"]
+- !private ["PSs23CustomStringConvertible", "sharedHUD"]
+- !private ["PSs23CustomStringConvertible", "show"]
+- !private ["PSs23CustomStringConvertible", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["PSs9Equatable", "contentView"]
+- !private ["PSs9Equatable", "dimsBackground"]
+- !private ["PSs9Equatable", "hide"]
+- !private ["PSs9Equatable", "init"]
+- !private ["PSs9Equatable", "isVisible"]
+- !private ["PSs9Equatable", "sharedHUD"]
+- !private ["PSs9Equatable", "show"]
+- !private ["PSs9Equatable", "userInteractionOnUnderlyingViewsEnabled"]
+- ["C5PKHUD3HUD", "Bool"]
+- !private ["C5PKHUD3HUD", "HUD"]
+- ["C5PKHUD3HUD", "HUDContentType"]
+- ["C5PKHUD3HUD", "NSTimeInterval"]
+- !private ["C5PKHUD3HUD", "PKHUD"]
+- !private ["C5PKHUD3HUD", "PKHUDErrorView"]
+- !private ["C5PKHUD3HUD", "PKHUDProgressView"]
+- !private ["C5PKHUD3HUD", "PKHUDRotatingImageView"]
+- !private ["C5PKHUD3HUD", "PKHUDSquareBaseView"]
+- !private ["C5PKHUD3HUD", "PKHUDSuccessView"]
+- !private ["C5PKHUD3HUD", "PKHUDSystemActivityIndicatorView"]
+- !private ["C5PKHUD3HUD", "PKHUDTextView"]
+- !private ["C5PKHUD3HUD", "UIView"]
+- ["C5PKHUD3HUD", "Void"]
+- ["C5PKHUD3HUD", "allowsInteraction"]
+- !private ["C5PKHUD3HUD", "contentView"]
+- ["C5PKHUD3HUD", "deinit"]
+- ["C5PKHUD3HUD", "dimsBackground"]
+- ["C5PKHUD3HUD", "flash"]
+- ["C5PKHUD3HUD", "hide"]
+- ["C5PKHUD3HUD", "init"]
+- ["C5PKHUD3HUD", "isVisible"]
+- ["C5PKHUD3HUD", "show"]
+- ["O5PKHUD14HUDContentType", "Error"]
+- ["O5PKHUD14HUDContentType", "Image"]
+- ["O5PKHUD14HUDContentType", "Label"]
+- ["O5PKHUD14HUDContentType", "LabeledError"]
+- ["O5PKHUD14HUDContentType", "LabeledImage"]
+- ["O5PKHUD14HUDContentType", "LabeledProgress"]
+- ["O5PKHUD14HUDContentType", "LabeledRotatingImage"]
+- ["O5PKHUD14HUDContentType", "LabeledSuccess"]
+- ["O5PKHUD14HUDContentType", "Progress"]
+- ["O5PKHUD14HUDContentType", "RotatingImage"]
+- ["O5PKHUD14HUDContentType", "String"]
+- ["O5PKHUD14HUDContentType", "Success"]
+- ["O5PKHUD14HUDContentType", "SystemActivity"]
+- ["O5PKHUD14HUDContentType", "UIImage"]
+- !private ["PSs8Hashable", "contentView"]
+- !private ["PSs8Hashable", "dimsBackground"]
+- !private ["PSs8Hashable", "hide"]
+- !private ["PSs8Hashable", "init"]
+- !private ["PSs8Hashable", "isVisible"]
+- !private ["PSs8Hashable", "sharedHUD"]
+- !private ["PSs8Hashable", "show"]
+- !private ["PSs8Hashable", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["PSo8NSCoding", "init"]
+- !private ["CSo8NSObject", "contentView"]
+- !private ["CSo8NSObject", "dimsBackground"]
+- !private ["CSo8NSObject", "hide"]
+- !private ["CSo8NSObject", "init"]
+- !private ["CSo8NSObject", "isVisible"]
+- !private ["CSo8NSObject", "sharedHUD"]
+- !private ["CSo8NSObject", "show"]
+- !private ["CSo8NSObject", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["PSo16NSObjectProtocol", "contentView"]
+- !private ["PSo16NSObjectProtocol", "dimsBackground"]
+- !private ["PSo16NSObjectProtocol", "hide"]
+- !private ["PSo16NSObjectProtocol", "init"]
+- !private ["PSo16NSObjectProtocol", "isVisible"]
+- !private ["PSo16NSObjectProtocol", "sharedHUD"]
+- !private ["PSo16NSObjectProtocol", "show"]
+- !private ["PSo16NSObjectProtocol", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["C5PKHUD5PKHUD", "contentView"]
+- !private ["C5PKHUD5PKHUD", "dimsBackground"]
+- !private ["C5PKHUD5PKHUD", "hide"]
+- !private ["C5PKHUD5PKHUD", "isVisible"]
+- !private ["C5PKHUD5PKHUD", "sharedHUD"]
+- !private ["C5PKHUD5PKHUD", "show"]
+- !private ["C5PKHUD5PKHUD", "userInteractionOnUnderlyingViewsEnabled"]
+- !private ["P5PKHUD14PKHUDAnimating", "init"]
+- !private ["C5PKHUD14PKHUDErrorView", "init"]
+- !private ["C5PKHUD17PKHUDProgressView", "init"]
+- !private ["C5PKHUD22PKHUDRotatingImageView", "init"]
+- !private ["C5PKHUD19PKHUDSquareBaseView", "init"]
+- !private ["C5PKHUD16PKHUDSuccessView", "init"]
+- !private ["C5PKHUD32PKHUDSystemActivityIndicatorView", "init"]
+- !private ["C5PKHUD13PKHUDTextView", "init"]
+- !private ["PSo29UIAccessibilityIdentification", "init"]
+- !private ["PSo12UIAppearance", "init"]
+- !private ["PSo21UIAppearanceContainer", "init"]
+- !private ["PSo17UICoordinateSpace", "init"]
+- !private ["PSo13UIDynamicItem", "init"]
+- !private ["PSo18UIFocusEnvironment", "init"]
+- !private ["CSo11UIResponder", "init"]
+- !private ["PSo18UITraitEnvironment", "init"]
+- !private ["CSo6UIView", "init"]
+- !private ["PSs12_Reflectable", "init"]
+depends-nominal:
+- "PSs9AnyObject"
+- !private "PSs11CVarArgType"
+- !private "PSs23CustomStringConvertible"
+- !private "PSs9Equatable"
+- "C5PKHUD3HUD"
+- "O5PKHUD14HUDContentType"
+- !private "PSs8Hashable"
+- !private "PSo8NSCoding"
+- !private "CSo8NSObject"
+- !private "PSo16NSObjectProtocol"
+- !private "C5PKHUD5PKHUD"
+- !private "P5PKHUD14PKHUDAnimating"
+- !private "C5PKHUD14PKHUDErrorView"
+- !private "C5PKHUD17PKHUDProgressView"
+- !private "C5PKHUD22PKHUDRotatingImageView"
+- !private "C5PKHUD19PKHUDSquareBaseView"
+- !private "C5PKHUD16PKHUDSuccessView"
+- !private "C5PKHUD32PKHUDSystemActivityIndicatorView"
+- !private "C5PKHUD13PKHUDTextView"
+- !private "PSo29UIAccessibilityIdentification"
+- !private "PSo12UIAppearance"
+- !private "PSo21UIAppearanceContainer"
+- !private "PSo17UICoordinateSpace"
+- !private "PSo13UIDynamicItem"
+- !private "PSo18UIFocusEnvironment"
+- !private "CSo11UIResponder"
+- !private "PSo18UITraitEnvironment"
+- !private "CSo6UIView"
+- !private "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Swift.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Intermediates/Pods.build/Debug-iphoneos/PKHUD.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/arm64/CoreImage.swiftmodule"
+interface-hash: "e1b3924feeaf2f17425d181841d8b661"

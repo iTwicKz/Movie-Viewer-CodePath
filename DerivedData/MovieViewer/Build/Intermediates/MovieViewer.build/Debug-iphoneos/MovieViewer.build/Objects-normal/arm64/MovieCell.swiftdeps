@@ -7,16 +7,16 @@ provides-member:
 - ["C11MovieViewer9MovieCell", ""]
 provides-dynamic-lookup:
 - "posterView"
-- "overviewLabel"
 - "setSelected"
+- "overviewLabel"
 - "awakeFromNib"
 - "titleLabel"
 depends-top-level:
+- "MovieCell"
+- "Bool"
+- "UITableViewCell"
 - "UILabel"
 - "UIImageView"
-- "MovieCell"
-- "UITableViewCell"
-- "Bool"
 depends-member:
 - ["PSs9AnyObject", "awakeFromNib"]
 - ["PSs9AnyObject", "init"]
@@ -229,4 +229,8 @@ depends-external:
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules/YouTubePlayer.swiftmodule/arm64.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-Swift.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules/module.modulemap"
 interface-hash: "ab6006bf8052db972aca8ea118858cec"
