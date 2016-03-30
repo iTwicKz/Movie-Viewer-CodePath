@@ -1,0 +1,192 @@
+### Swift dependencies file v0 ###
+provides-top-level:
+- "PKHUDWideBaseView"
+provides-nominal:
+- "C5PKHUD17PKHUDWideBaseView"
+provides-member:
+- ["C5PKHUD17PKHUDWideBaseView", ""]
+provides-dynamic-lookup:
+- "defaultWideBaseViewFrame"
+depends-top-level:
+- "PKHUDWideBaseView"
+- "NSCoder"
+- "UIView"
+- "CGRect"
+- "CGPointZero"
+- "CGSize"
+depends-member:
+- ["PSs9AnyObject", "CGPointZero"]
+- ["PSs9AnyObject", "CGRect"]
+- ["PSs9AnyObject", "CGSize"]
+- !private ["PSs9AnyObject", "PKHUDWideBaseView"]
+- ["PSs9AnyObject", "defaultWideBaseViewFrame"]
+- ["PSs9AnyObject", "init"]
+- ["PSs9AnyObject", ""]
+- ["VSC6CGRect", "init"]
+- ["VSC6CGSize", "init"]
+- ["PSs11CVarArgType", "CGPointZero"]
+- ["PSs11CVarArgType", "CGRect"]
+- ["PSs11CVarArgType", "CGSize"]
+- !private ["PSs11CVarArgType", "PKHUDWideBaseView"]
+- ["PSs11CVarArgType", "defaultWideBaseViewFrame"]
+- ["PSs11CVarArgType", "init"]
+- ["PSs11CVarArgType", ""]
+- ["PSs23CustomStringConvertible", "CGPointZero"]
+- ["PSs23CustomStringConvertible", "CGRect"]
+- ["PSs23CustomStringConvertible", "CGSize"]
+- !private ["PSs23CustomStringConvertible", "PKHUDWideBaseView"]
+- ["PSs23CustomStringConvertible", "defaultWideBaseViewFrame"]
+- ["PSs23CustomStringConvertible", "init"]
+- ["PSs23CustomStringConvertible", ""]
+- ["PSs9Equatable", "CGPointZero"]
+- ["PSs9Equatable", "CGRect"]
+- ["PSs9Equatable", "CGSize"]
+- !private ["PSs9Equatable", "PKHUDWideBaseView"]
+- ["PSs9Equatable", "defaultWideBaseViewFrame"]
+- ["PSs9Equatable", "init"]
+- ["PSs9Equatable", ""]
+- ["PSs8Hashable", "CGPointZero"]
+- ["PSs8Hashable", "CGRect"]
+- ["PSs8Hashable", "CGSize"]
+- !private ["PSs8Hashable", "PKHUDWideBaseView"]
+- ["PSs8Hashable", "defaultWideBaseViewFrame"]
+- ["PSs8Hashable", "init"]
+- ["PSs8Hashable", ""]
+- ["Si", "deinit"]
+- ["PSo8NSCoding", "CGPointZero"]
+- ["PSo8NSCoding", "CGRect"]
+- ["PSo8NSCoding", "CGSize"]
+- !private ["PSo8NSCoding", "PKHUDWideBaseView"]
+- ["PSo8NSCoding", "defaultWideBaseViewFrame"]
+- ["PSo8NSCoding", "init"]
+- ["PSo8NSCoding", ""]
+- ["CSo8NSObject", "CGPointZero"]
+- ["CSo8NSObject", "CGRect"]
+- ["CSo8NSObject", "CGSize"]
+- ["CSo8NSObject", "NSCoder"]
+- !private ["CSo8NSObject", "PKHUDWideBaseView"]
+- ["CSo8NSObject", "defaultWideBaseViewFrame"]
+- ["CSo8NSObject", "init"]
+- ["PSo16NSObjectProtocol", "CGPointZero"]
+- ["PSo16NSObjectProtocol", "CGRect"]
+- ["PSo16NSObjectProtocol", "CGSize"]
+- !private ["PSo16NSObjectProtocol", "PKHUDWideBaseView"]
+- ["PSo16NSObjectProtocol", "defaultWideBaseViewFrame"]
+- ["PSo16NSObjectProtocol", "init"]
+- ["PSo16NSObjectProtocol", ""]
+- ["C5PKHUD17PKHUDWideBaseView", "CGPointZero"]
+- ["C5PKHUD17PKHUDWideBaseView", "CGRect"]
+- ["C5PKHUD17PKHUDWideBaseView", "CGSize"]
+- ["C5PKHUD17PKHUDWideBaseView", "NSCoder"]
+- !private ["C5PKHUD17PKHUDWideBaseView", "PKHUDWideBaseView"]
+- ["C5PKHUD17PKHUDWideBaseView", "defaultWideBaseViewFrame"]
+- ["C5PKHUD17PKHUDWideBaseView", "deinit"]
+- ["C5PKHUD17PKHUDWideBaseView", "init"]
+- ["PSo29UIAccessibilityIdentification", "CGPointZero"]
+- ["PSo29UIAccessibilityIdentification", "CGRect"]
+- ["PSo29UIAccessibilityIdentification", "CGSize"]
+- !private ["PSo29UIAccessibilityIdentification", "PKHUDWideBaseView"]
+- ["PSo29UIAccessibilityIdentification", "defaultWideBaseViewFrame"]
+- ["PSo29UIAccessibilityIdentification", "init"]
+- ["PSo29UIAccessibilityIdentification", ""]
+- ["PSo12UIAppearance", "CGPointZero"]
+- ["PSo12UIAppearance", "CGRect"]
+- ["PSo12UIAppearance", "CGSize"]
+- !private ["PSo12UIAppearance", "PKHUDWideBaseView"]
+- ["PSo12UIAppearance", "defaultWideBaseViewFrame"]
+- ["PSo12UIAppearance", "init"]
+- ["PSo12UIAppearance", ""]
+- ["PSo21UIAppearanceContainer", "CGPointZero"]
+- ["PSo21UIAppearanceContainer", "CGRect"]
+- ["PSo21UIAppearanceContainer", "CGSize"]
+- !private ["PSo21UIAppearanceContainer", "PKHUDWideBaseView"]
+- ["PSo21UIAppearanceContainer", "defaultWideBaseViewFrame"]
+- ["PSo21UIAppearanceContainer", "init"]
+- ["PSo21UIAppearanceContainer", ""]
+- ["PSo17UICoordinateSpace", "CGPointZero"]
+- ["PSo17UICoordinateSpace", "CGRect"]
+- ["PSo17UICoordinateSpace", "CGSize"]
+- !private ["PSo17UICoordinateSpace", "PKHUDWideBaseView"]
+- ["PSo17UICoordinateSpace", "defaultWideBaseViewFrame"]
+- ["PSo17UICoordinateSpace", "init"]
+- ["PSo17UICoordinateSpace", ""]
+- ["PSo13UIDynamicItem", "CGPointZero"]
+- ["PSo13UIDynamicItem", "CGRect"]
+- ["PSo13UIDynamicItem", "CGSize"]
+- !private ["PSo13UIDynamicItem", "PKHUDWideBaseView"]
+- ["PSo13UIDynamicItem", "defaultWideBaseViewFrame"]
+- ["PSo13UIDynamicItem", "init"]
+- ["PSo13UIDynamicItem", ""]
+- ["PSo18UIFocusEnvironment", "CGPointZero"]
+- ["PSo18UIFocusEnvironment", "CGRect"]
+- ["PSo18UIFocusEnvironment", "CGSize"]
+- !private ["PSo18UIFocusEnvironment", "PKHUDWideBaseView"]
+- ["PSo18UIFocusEnvironment", "defaultWideBaseViewFrame"]
+- ["PSo18UIFocusEnvironment", "init"]
+- ["PSo18UIFocusEnvironment", ""]
+- ["CSo11UIResponder", "CGPointZero"]
+- ["CSo11UIResponder", "CGRect"]
+- ["CSo11UIResponder", "CGSize"]
+- ["CSo11UIResponder", "NSCoder"]
+- !private ["CSo11UIResponder", "PKHUDWideBaseView"]
+- ["CSo11UIResponder", "defaultWideBaseViewFrame"]
+- ["CSo11UIResponder", "init"]
+- ["PSo18UITraitEnvironment", "CGPointZero"]
+- ["PSo18UITraitEnvironment", "CGRect"]
+- ["PSo18UITraitEnvironment", "CGSize"]
+- !private ["PSo18UITraitEnvironment", "PKHUDWideBaseView"]
+- ["PSo18UITraitEnvironment", "defaultWideBaseViewFrame"]
+- ["PSo18UITraitEnvironment", "init"]
+- ["PSo18UITraitEnvironment", ""]
+- ["CSo6UIView", "CGPointZero"]
+- ["CSo6UIView", "CGRect"]
+- ["CSo6UIView", "CGSize"]
+- ["CSo6UIView", "NSCoder"]
+- !private ["CSo6UIView", "PKHUDWideBaseView"]
+- ["CSo6UIView", "defaultWideBaseViewFrame"]
+- ["CSo6UIView", "init"]
+- ["CSo6UIView", ""]
+- ["PSs12_Reflectable", "CGPointZero"]
+- ["PSs12_Reflectable", "CGRect"]
+- ["PSs12_Reflectable", "CGSize"]
+- !private ["PSs12_Reflectable", "PKHUDWideBaseView"]
+- ["PSs12_Reflectable", "defaultWideBaseViewFrame"]
+- ["PSs12_Reflectable", "init"]
+- ["PSs12_Reflectable", ""]
+depends-nominal:
+- "PSs9AnyObject"
+- "VSC6CGRect"
+- "VSC6CGSize"
+- "PSs11CVarArgType"
+- "PSs23CustomStringConvertible"
+- "PSs9Equatable"
+- "PSs8Hashable"
+- "Si"
+- "PSo8NSCoding"
+- "CSo8NSObject"
+- "PSo16NSObjectProtocol"
+- "C5PKHUD17PKHUDWideBaseView"
+- "PSo29UIAccessibilityIdentification"
+- "PSo12UIAppearance"
+- "PSo21UIAppearanceContainer"
+- "PSo17UICoordinateSpace"
+- "PSo13UIDynamicItem"
+- "PSo18UIFocusEnvironment"
+- "CSo11UIResponder"
+- "PSo18UITraitEnvironment"
+- "CSo6UIView"
+- "PSs12_Reflectable"
+depends-dynamic-lookup:
+depends-external:
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Swift.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/PKHUD/PKHUD/PKHUD.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/Target Support Files/PKHUD/PKHUD-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Intermediates/Pods.build/Debug-iphoneos/PKHUD.build/unextended-module.modulemap"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/UIKit.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Foundation.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Darwin.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/Dispatch.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/ObjectiveC.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreGraphics.swiftmodule"
+- "/Applications/Xcode.app/Contents/Developer/Toolchains/XcodeDefault.xctoolchain/usr/lib/swift/iphoneos/armv7/CoreImage.swiftmodule"
+interface-hash: "f156dfe0297209acdcaaa2842a8d40fb"

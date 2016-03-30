@@ -1,8 +1,11 @@
 version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
-options: "996af20495c08daa7092cffe10861a72"
-build_time: [506488222, 417024000]
+options: "4c17e66a4d620cdbadf7ae24d4109cf9"
+build_time: [512323732, 820933000]
 inputs:
-  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewCell.swift": [505359415, 0]
-  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewController.swift": [506234546, 0]
-  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieCell.swift": [505358968, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/LoadingActivityView.swift": [506393020, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/TopRatedViewController.swift": [512323719, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewController.swift": [512323719, 0]
   "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/AppDelegate.swift": [505269763, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieViewCell.swift": [507341141, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieDetailViewController.swift": [512323719, 0]
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/MovieViewer/MovieCell.swift": [505358968, 0]

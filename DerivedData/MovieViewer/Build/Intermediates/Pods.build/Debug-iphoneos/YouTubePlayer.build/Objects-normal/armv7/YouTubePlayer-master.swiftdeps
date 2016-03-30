@@ -1,0 +1,5 @@
+version: "Apple Swift version 2.1.1 (swiftlang-700.1.101.15 clang-700.1.81)"
+options: "b20f785b6aff338fd3290508ee487cf0"
+build_time: [512323725, 94924000]
+inputs:
+  "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/Pods/YouTubePlayer/YouTubePlayer/YouTubePlayer/YouTubePlayer.swift": [512323719, 0]

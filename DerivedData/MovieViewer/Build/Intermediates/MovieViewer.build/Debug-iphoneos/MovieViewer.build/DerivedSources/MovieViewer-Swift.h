@@ -137,6 +137,34 @@ SWIFT_CLASS("_TtC11MovieViewer9MovieCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
+@class NSDictionary;
+@class UIScrollView;
+@class UIWebView;
+@class YouTubePlayerView;
+@class NSBundle;
+
+SWIFT_CLASS("_TtC11MovieViewer25MovieDetailViewController")
+@interface MovieDetailViewController : UIViewController
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified detailImageView;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified titleYearLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified ratingsLabel;
+@property (nonatomic, weak) IBOutlet UILabel * __null_unspecified overviewLabel;
+@property (nonatomic, weak) IBOutlet UIScrollView * __null_unspecified scrollView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified infoView;
+@property (nonatomic, weak) IBOutlet UIWebView * __null_unspecified trailerPreview;
+@property (nonatomic, weak) IBOutlet YouTubePlayerView * __null_unspecified videoPlayer;
+@property (nonatomic, weak) IBOutlet UIImageView * __null_unspecified posterView;
+@property (nonatomic, strong) NSDictionary * __null_unspecified passedMovie;
+@property (nonatomic, copy) NSString * __null_unspecified movieVideoID;
+@property (nonatomic, weak) IBOutlet UIScrollView * __null_unspecified scrollerView;
+- (void)viewDidLoad;
+- (void)networkRequest;
+- (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
+- (void)didReceiveMemoryWarning;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
 
 SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 @interface MovieViewCell : UICollectionViewCell
@@ -147,16 +175,15 @@ SWIFT_CLASS("_TtC11MovieViewer13MovieViewCell")
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end
 
-@class NSDictionary;
 @class UIRefreshControl;
 @class UICollectionView;
 @class NSIndexPath;
 @class UISearchBar;
+@class UIStoryboardSegue;
 @class UITableView;
-@class NSBundle;
 
 SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
-@interface MovieViewController : UIViewController <UIBarPositioningDelegate, UISearchBarDelegate, UIScrollViewDelegate, UICollectionViewDataSource>
+@interface MovieViewController : UIViewController <UIBarPositioningDelegate, UICollectionViewDelegate, UIScrollViewDelegate, UISearchBarDelegate, UICollectionViewDataSource>
 @property (nonatomic, weak) IBOutlet UITableView * __null_unspecified tableView;
 @property (nonatomic, weak) IBOutlet UISearchBar * __null_unspecified searchBar;
 @property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
@@ -171,8 +198,36 @@ SWIFT_CLASS("_TtC11MovieViewer19MovieViewController")
 - (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
 - (void)onRefresh;
 - (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didHighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
 - (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
 - (void)searchBar:(UISearchBar * __nonnull)searchBar textDidChange:(NSString * __nonnull)searchText;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
+- (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
+- (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
+@end
+
+
+SWIFT_CLASS("_TtC11MovieViewer22TopRatedViewController")
+@interface TopRatedViewController : UIViewController <UIBarPositioningDelegate, UICollectionViewDelegate, UIScrollViewDelegate, UISearchBarDelegate, UICollectionViewDataSource>
+@property (nonatomic, weak) IBOutlet UISearchBar * __null_unspecified searchBar;
+@property (nonatomic, weak) IBOutlet UICollectionView * __null_unspecified collectionView;
+@property (nonatomic, weak) IBOutlet UIView * __null_unspecified networkErrorView;
+@property (nonatomic, copy) NSArray<NSDictionary *> * __nullable movies;
+@property (nonatomic, copy) NSArray<NSDictionary *> * __nullable filteredData;
+@property (nonatomic, strong) UIRefreshControl * __null_unspecified refreshControl;
+@property (nonatomic, strong) UIActivityIndicatorView * __nonnull myActivityIndicator;
+- (void)viewDidLoad;
+- (void)networkRequest;
+- (void)didReceiveMemoryWarning;
+- (void)delay:(double)delay closure:(void (^ __nonnull)(void))closure;
+- (void)onRefresh;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didHighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (void)collectionView:(UICollectionView * __nonnull)collectionView didUnhighlightItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (UICollectionViewCell * __nonnull)collectionView:(UICollectionView * __nonnull)collectionView cellForItemAtIndexPath:(NSIndexPath * __nonnull)indexPath;
+- (NSInteger)collectionView:(UICollectionView * __nonnull)collectionView numberOfItemsInSection:(NSInteger)section;
+- (void)searchBar:(UISearchBar * __nonnull)searchBar textDidChange:(NSString * __nonnull)searchText;
+- (void)prepareForSegue:(UIStoryboardSegue * __nonnull)segue sender:(id __nullable)sender;
 - (nonnull instancetype)initWithNibName:(NSString * __nullable)nibNameOrNil bundle:(NSBundle * __nullable)nibBundleOrNil OBJC_DESIGNATED_INITIALIZER;
 - (nullable instancetype)initWithCoder:(NSCoder * __nonnull)aDecoder OBJC_DESIGNATED_INITIALIZER;
 @end

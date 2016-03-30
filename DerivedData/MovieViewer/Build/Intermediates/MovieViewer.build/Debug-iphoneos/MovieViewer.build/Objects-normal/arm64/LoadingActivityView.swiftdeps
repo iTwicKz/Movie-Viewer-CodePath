@@ -6,22 +6,22 @@ provides-nominal:
 provides-member:
 - ["C11MovieViewer19LoadingActivityView", ""]
 provides-dynamic-lookup:
-- "activityIndicatorView"
-- "layoutSubviews"
 - "stopAnimating"
+- "startAnimating"
+- "layoutSubviews"
 - "defaultHeight"
 - "setupActivityIndicator"
-- "startAnimating"
+- "activityIndicatorView"
 depends-top-level:
-- "CGRect"
-- "UIView"
-- !private "/"
-- "LoadingActivityView"
-- !private "CGPointMake"
-- "CGFloat"
-- "UIActivityIndicatorView"
-- !private "BooleanLiteralType"
 - "NSCoder"
+- !private "/"
+- "UIActivityIndicatorView"
+- "UIView"
+- "CGFloat"
+- !private "CGPointMake"
+- "LoadingActivityView"
+- "CGRect"
+- !private "BooleanLiteralType"
 depends-member:
 - !private ["PSs9AnyObject", "CGPointMake"]
 - ["PSs9AnyObject", "UIActivityIndicatorView"]
@@ -410,4 +410,8 @@ depends-external:
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Headers/AFNetworking-umbrella.h"
 - "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/AFNetworking.framework/Modules/module.modulemap"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules/YouTubePlayer.swiftmodule/arm64.swiftmodule"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-Swift.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Headers/YouTubePlayer-umbrella.h"
+- "/Users/Takashi/Documents/codepath/movieViewer/MovieViewer/DerivedData/MovieViewer/Build/Products/Debug-iphoneos/YouTubePlayer.framework/Modules/module.modulemap"
 interface-hash: "9185e13bf754a471bc4b41a2db00ceb8"
