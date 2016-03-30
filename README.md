@@ -2,7 +2,7 @@
 
 **Movie Viewer** is a movies app displaying box office and top rental DVDs using [The Movie Database API](http://docs.themoviedb.apiary.io/#).
 
-Time spent: **0** hours spent in total
+Time spent: **10** hours spent in total
 
 ## User Stories
 
@@ -15,16 +15,22 @@ The following **required** functionality is completed:
 The following **optional** features are implemented:
 
 - [ ] For the large poster, load the low resolution image first and then switch to the high resolution image when complete.
-- [ ] Customize the navigation bar.
+- [x] Customize the navigation bar.
+- [x] Added search functionality
+- [x] Added refresh animation
+- [x] Added Network request failure view
 
 The following **additional** features are implemented:
 
-- [ ] List anything else that you can get done to improve the app functionality!
+- [x] Added trailer view
+- [x] Autoplay trailers
 
 ## Video Walkthrough 
 
 Here's a walkthrough of implemented user stories:
+<img src='http://i.giphy.com/3osxYzmUY90vYbIXTO.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
+###Week 1
 <img src='http://i.imgur.com/link/to/your/gif/file.gif' title='Video Walkthrough' width='' alt='Video Walkthrough' />
 
 GIF created with [LiceCap](http://www.cockos.com/licecap/).
@@ -32,7 +38,6 @@ GIF created with [LiceCap](http://www.cockos.com/licecap/).
 ## Notes
 
 Describe any challenges encountered while building the app.
-
 ## License
 
     Copyright [yyyy] [name of copyright owner]
